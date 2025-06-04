@@ -1,0 +1,11 @@
+Using an existing study with name 'cartographer_tuning' instead of creating a new one.
+Trial 6 failed with parameters: {'num_accumulated_range_data': 3.5082188508027827, 'ceres_translation_weight': 11, 'ceres_rotation_weight': 15, 'submaps_high_resolution_max_range': 181.24061270758855} because of the following error: AttributeError("'CartographerTuning' object has no attribute 'TRAJECTORY_BUILDER_3D'").
+Traceback (most recent call last):
+  File "/home/arijan/anaconda3/envs/optuna_master/lib/python3.10/site-packages/optuna/study/_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+  File "/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/automatic_tuning.py", line 28, in objective
+    self.setup(trial)
+  File "/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/optimize_cartographer.py", line 50, in setup
+    self.TRAJECTORY_BUILDER_3D['num_accumulated_range_data'] = num_accumulated_range_data
+AttributeError: 'CartographerTuning' object has no attribute 'TRAJECTORY_BUILDER_3D'
+Trial 6 failed with value None.

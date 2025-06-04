@@ -16,7 +16,6 @@ class AutomaticTuning(ABC):
 		self.log_id = 0
 		while os.path.exists(study_name + '/log/log_%02d.log' % self.log_id):
 			self.log_id += 1		
-
 		logger = logging.getLogger()
 		logger.setLevel(logging.INFO)
 		logger.addHandler(logging.FileHandler(study_name + '/log/log_%02d.log' % self.log_id, mode='w'))

@@ -1,0 +1,10 @@
+Using an existing study with name 'cartographer_tuning' instead of creating a new one.
+[1748988655.055598259] Start trial 8
+Trial 8 finished with value: 10.0 and parameters: {'num_accumulated_range_data': 4.073878103513084, 'ceres_translation_weight': 4, 'ceres_rotation_weight': 9, 'submaps_high_resolution_max_range': 73.16411257529828}. Best is trial 0 with value: 10.0.
+[1748988687.581133127] Start trial 9
+Trial 9 finished with value: 10.0 and parameters: {'num_accumulated_range_data': 3.265767940298403, 'ceres_translation_weight': 9, 'ceres_rotation_weight': 14, 'submaps_high_resolution_max_range': 142.89714624782317}. Best is trial 0 with value: 10.0.
+[1748988691.874660969] Start trial 10
+Trial 10 finished with value: 10.0 and parameters: {'num_accumulated_range_data': 9.326027425422657, 'ceres_translation_weight': 3, 'ceres_rotation_weight': 3, 'submaps_high_resolution_max_range': 41.70696906866448}. Best is trial 0 with value: 10.0.
+[1748988695.200241327] Start trial 11
+Trial 11 finished with value: 10.0 and parameters: {'num_accumulated_range_data': 5.395057716668124, 'ceres_translation_weight': 6, 'ceres_rotation_weight': 2, 'submaps_high_resolution_max_range': 144.46753089584593}. Best is trial 0 with value: 10.0.
+[1748988697.730143070] Start trial 12

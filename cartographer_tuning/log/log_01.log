@@ -1,0 +1,4 @@
+Using an existing study with name 'cartographer_tuning' instead of creating a new one.
+[1748279826.861281872] Start trial 0
+Trial 0 finished with value: 10.0 and parameters: {'num_accumulated_range_data': 5.082474837009532, 'ceres_translation_weight': 2, 'ceres_rotation_weight': 21, 'submaps_high_resolution_max_range': 107.72430590624008}. Best is trial 0 with value: 10.0.
+[1748279912.896870136] Start trial 1
