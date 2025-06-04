@@ -2,8 +2,9 @@ import logging
 import os
 import time
 from lupa import LuaRuntime
-import yaml
+import subprocess
 
+from evaluate_traj import get_traj_info
 from automatic_tuning import AutomaticTuning
 
 class CartographerTuning(AutomaticTuning):
@@ -14,15 +15,23 @@ class CartographerTuning(AutomaticTuning):
         with open('/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/livox_cartographer_only.lua', 'r') as f:
             lua_code = f.read()
         lua.execute(lua_code)
-        self.robot_name = lua.globals().robot_name
-        self.MAX_3D_RANGE = lua.globals().MAX_3D_RANGE
-        self.trajectory_builder_3d = lua.globals().TRAJECTORY_BUILDER_3D
 
-        self.trajectory_builder3d_dict = self.lua_table_to_dict(self.trajectory_builder_3d)
+        options = lua.globals().options
+        self.options_dict = self.lua_table_to_dict(options)
+        #print(self.options_dict)
+        #print("lol")
+    
+    def setup(self, trial):
+        num_accumulated_range_data = trial.suggest_uniform('num_accumulated_range_data', 1, 10)
+        translation_weight = trial.suggest_int('translation_weight', 2, 20)
+        rotation_weight = trial.suggest_int('ceres_rotation_weight', 2, 30)
+        high_resolution_max_range = trial.suggest_uniform('high_resolution_max_range', 30, 200)
 
-        #print("TRAJECTORY_BUILDER_3D:", self.trajectory_builder3d_dict["ceres_scan_matcher"]["ceres_solver_options"]["max_num_iterations"])
-        print("Loaded Lua configuration successfully.")
-
+        self.options_dict["trajectory_builder"]["trajectory_builder_3d"]['num_accumulated_range_data'] = num_accumulated_range_data
+        self.options_dict["trajectory_builder"]["trajectory_builder_3d"]['ceres_scan_matcher']['translation_weight'] = translation_weight
+        self.options_dict["trajectory_builder"]["trajectory_builder_3d"]['ceres_scan_matcher']['rotation_weight'] = rotation_weight
+        self.options_dict["trajectory_builder"]["trajectory_builder_3d"]['submaps']['high_resolution_max_range'] = high_resolution_max_range
+    
     def lua_table_to_dict(self,lua_table):
         if not lua_table:
             return {}
@@ -35,17 +44,6 @@ class CartographerTuning(AutomaticTuning):
                 result[key] = value
         return result
     
-    def setup(self, trial):
-        num_accumulated_range_data = trial.suggest_uniform('num_accumulated_range_data', 1, 10)
-        translation_weight = trial.suggest_int('translation_weight', 2, 20)
-        rotation_weight = trial.suggest_int('ceres_rotation_weight', 2, 30)
-        high_resolution_max_range = trial.suggest_uniform('high_resolution_max_range', 30, 200)
-
-        self.trajectory_builder3d_dict['num_accumulated_range_data'] = num_accumulated_range_data
-        self.trajectory_builder3d_dict['ceres_scan_matcher']['translation_weight'] = translation_weight
-        self.trajectory_builder3d_dict['ceres_scan_matcher']['rotation_weight'] = rotation_weight
-        self.trajectory_builder3d_dict['submaps']['high_resolution_max_range'] = high_resolution_max_range
-        
     def lua_table_to_string(self, table, indent=0):
         lua_str = "{\n"
         indent_str = "  " * (indent + 1)
@@ -79,12 +77,26 @@ class CartographerTuning(AutomaticTuning):
 
         os.makedirs('/tmp/results', exist_ok=True)
 
-        lua_table_str = self.lua_table_to_string(self.trajectory_builder_dict)
-        lua_code = f"TRAJECTORY_BUILDER_3D = {lua_table_str}\n\nreturn TRAJECTORY_BUILDER_3D\n"
-        with open("/tmp/modified_tb3d.lua", "w") as f:
-            f.write(lua_code)
+        conf_filename = '/tmp/results/cartographer_config.lua'
+        lua_table_str_options = self.lua_table_to_string(self.options_dict)
+        lua_code2 = f"options = {lua_table_str_options}\n\nreturn options\n"
 
+        with open(conf_filename, "w") as f:
+            f.write(lua_code2)
+
+        seq_id = 14
+        gt_filename = f'/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/{seq_id:02d}_tum.txt'
+        bag_filename = f'/home/arijan/Documents/Diplomski_rad/Pastel_dataset/{seq_id:02d}.bag'
+        traj_filename = f'/tmp/results/traj_{seq_id:02d}.txt'
+
+        # run Cartographer
+        gt_info = get_traj_info(gt_filename)
+        print(gt_info)
+        self.run_cartographer(bag_filename, conf_filename, traj_filename)
         return 10
+
+    def run_cartographer(self, bag_filename, conf_filename, traj_filename):
+        subprocess.run(['roslaunch', '/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/offline_cartographer.launch', 'rosbag:=%s' % bag_filename, 'conf:=%s' % conf_filename])
     
 def main():
     tuning = CartographerTuning('cartographer_tuning')
