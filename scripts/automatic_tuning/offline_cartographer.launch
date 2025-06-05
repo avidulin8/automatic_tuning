@@ -1,12 +1,13 @@
 <launch>
-  <arg name="bag_filenames" default="/home/arijan/Documents/projekt_diplomski/cijeli_fer.bag"/>
+  <arg name="rosbag" default="/home/arijan/Documents/projekt_diplomski/cijeli_fer.bag"/>
   <arg name="no_rviz" default="false"/>
   <arg name="rviz_config" default="/home/arijan/Documents/seminar_cartographer/vinograd_snimke/viv.rviz"/>
-  <arg name="configuration_directory" default="/home/arijan/Documents/projekt_diplomski"/>
-  <arg name="configuration_basenames" default="livox_cartographer_only.lua"/>
-  <arg name="urdf_filenames" default="/home/arijan/Documents/projekt_diplomski/fer_v02/SLAM_purse.urdf"/>
+  <arg name="conf" default="/tmp/results/cartographer_config.lua"/>
+  <arg name="urdf_filenames" default="/home/arijan/Documents/Diplomski_rad/Pastel_dataset/calibration/X4_pastel.urdf"/>
   <arg name="launch_prefix" default=""/>
-
+  
+  <arg name="configuration_directory" default="$(eval conf.rsplit('/', 1)[0])"/>
+  <arg name="configuration_basenames" default="$(eval conf.rsplit('/', 1)[1])"/>
   <param name="/use_sim_time" value="true" />
 
   <group unless="$(arg no_rviz)">
@@ -23,22 +24,17 @@
   </group>
 
   <node name="cartographer_offline_node" pkg="cartographer_ros"
-      required="$(arg no_rviz)"
+      required="true"
       type="cartographer_offline_node" args="
           -configuration_directory $(arg configuration_directory)
           -configuration_basenames $(arg configuration_basenames)
           -urdf_filenames $(arg urdf_filenames)
-          -bag_filenames $(arg bag_filenames)"
+          -bag_filenames $(arg rosbag)"
       launch-prefix="$(arg launch_prefix)"
       output="screen"> 
-    <remap from="points2" to="livox/lidar" />
-    <remap from="imu" to="imu/data"/>
+    <remap from="points2" to="os0_128/points" />
+    <remap from="imu" to="mavros/imu/data"/>
   </node>
- 
-  <node name="static_transform_publisher" pkg="tf2_ros" type="static_transform_publisher"
-      args="0.0 0.0 0.0 0.0 0.0 0.0 base_link livox_frame"/>
-    <!--   
-  <node name="static_transform_publisher2" pkg="tf2_ros" type="static_transform_publisher"
-      args="0.05 0.00 -0.20 0.0 0.0 0.0 imu_link livox_frame"/>
-    -->
+
+
 </launch>

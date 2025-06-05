@@ -5,6 +5,7 @@ from lupa import LuaRuntime
 import subprocess
 
 from evaluate_traj import get_traj_info
+from evaluate_traj import eval_rpe
 from automatic_tuning import AutomaticTuning
 
 class CartographerTuning(AutomaticTuning):
@@ -24,7 +25,7 @@ class CartographerTuning(AutomaticTuning):
     def setup(self, trial):
         num_accumulated_range_data = trial.suggest_uniform('num_accumulated_range_data', 1, 10)
         translation_weight = trial.suggest_int('translation_weight', 2, 20)
-        rotation_weight = trial.suggest_int('ceres_rotation_weight', 2, 30)
+        rotation_weight = trial.suggest_int('rotation_weight', 2, 30)
         high_resolution_max_range = trial.suggest_uniform('high_resolution_max_range', 30, 200)
 
         self.options_dict["trajectory_builder"]["trajectory_builder_3d"]['num_accumulated_range_data'] = num_accumulated_range_data
@@ -91,21 +92,36 @@ class CartographerTuning(AutomaticTuning):
 
         # run Cartographer
         gt_info = get_traj_info(gt_filename)
-        print(gt_info)
+        print(gt_info['poses'])
         self.run_cartographer(bag_filename, conf_filename, traj_filename)
-        return 10
+        traj_info = get_traj_info(traj_filename)
+        print(traj_info['poses'])
+        if 'poses' not in traj_info or traj_info['poses'] < gt_info['poses'] * 0.9:
+            logger.info('[%.9f] Too many frames dropped (gt:%d traj:%d)' % (time.time(), gt_info['poses'], traj_info['poses']))
+            return 1e9
+        rpe = eval_rpe(gt_filename, traj_filename, delta_unit='m', delta=100, all_pairs=True, t_offset=-1000)
+
+        os.makedirs('%s/results' % self.study_name, exist_ok=True)
+        subprocess.run(['zip', '-r', '%s/results/results_%05d.zip' % (self.study_name, trial.number), '/tmp/results'])
+
+        return rpe['rmse']
 
     def run_cartographer(self, bag_filename, conf_filename, traj_filename):
         subprocess.run(['roslaunch', '/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/offline_cartographer.launch', 'rosbag:=%s' % bag_filename, 'conf:=%s' % conf_filename])
+
+        subprocess.run(['rosrun', 'cartographer_ros', 'cartographer_dev_pbstream_trajectories_to_rosbag', '-input=%s.pbstream' % bag_filename, '-output=/tmp/integrated_to_init.bag'])
+        subprocess.run(['python3', '/home/arijan/catkin_ws/src/rpg_trajectory_evaluation/scripts/dataset_tools/bag_to_pose.py', '/tmp/integrated_to_init.bag', 'trajectory_0', '--msg_type=TransformStamped', '--output=%s' % traj_filename])
+        
+        
     
 def main():
     tuning = CartographerTuning('cartographer_tuning')
 
     x0 = {
-        'num_accumulated_range_data': 60,
-        'ceres_translation_weight': 5,
-        'ceres_rotation_weight': 3,
-        'submaps_high_resolution_max_range': 0.1
+        'num_accumulated_range_data': 10,
+        'translation_weight': 5,
+        'rotation_weight': 3,
+        'high_resolution_max_range': 0.1
     }
     if tuning.log_id == 0:
         tuning.study.enqueue_trial(x0)
