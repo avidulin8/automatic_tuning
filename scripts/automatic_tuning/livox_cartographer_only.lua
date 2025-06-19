@@ -309,7 +309,7 @@ options = {
   num_point_clouds = 1,
   lookup_transform_timeout_sec = 0.2,
   submap_publish_period_sec = 0.3,
-  pose_publish_period_sec = 5e-3,
+  pose_publish_period_sec = 2e-3,
   trajectory_publish_period_sec = 30e-3,
   rangefinder_sampling_ratio = 1.,
   odometry_sampling_ratio = 1.,
@@ -325,7 +325,7 @@ options = {
 
 TRAJECTORY_BUILDER.collate_fixed_frame = false
 
-TRAJECTORY_BUILDER_3D.num_accumulated_range_data = 10 -- vrijedno testirati razne verzije
+TRAJECTORY_BUILDER_3D.num_accumulated_range_data = 1 -- vrijedno testirati razne verzije
 -- important parameters! bigger number -> more trust in IMU
 TRAJECTORY_BUILDER_3D.ceres_scan_matcher.translation_weight = 5.
 --TRAJECTORY_BUILDER_3D.ceres_scan_matcher.translation_weight_z = 5. 

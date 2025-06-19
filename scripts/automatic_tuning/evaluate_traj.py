@@ -34,6 +34,7 @@ def run_evo(commands):
 		print(stderr.decode('utf-8'))
 
 	result = stdout.decode('utf-8')
+	#print(result)
 	results = {}
 	for item in re.findall(r'([a-z]+)\s+([0-9]+\.[0-9]+)', result):
 		results[item[0]] = float(item[1])
@@ -47,7 +48,7 @@ def eval_ape(gt_filename, traj_filename, t_offset=0.0):
 
 
 def eval_rpe(gt_filename, traj_filename, delta_unit='m', delta=100, all_pairs=True, t_offset=0.0):
-	commands = ['evo_rpe', 'tum', gt_filename, traj_filename, '-a', '--delta_unit', str(delta_unit), '--delta', str(delta), '--t_offset', str(t_offset)]
+	commands = ['evo_rpe', 'tum', gt_filename, traj_filename, '-a', '--delta_unit', str(delta_unit)]#, '--delta', str(delta), '--t_offset', str(t_offset)]
 	if all_pairs:
 		commands += ['--all_pairs']
 
