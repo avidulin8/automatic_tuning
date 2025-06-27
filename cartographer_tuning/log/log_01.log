@@ -1,4 +1,32 @@
 Using an existing study with name 'cartographer_tuning' instead of creating a new one.
-[1748279826.861281872] Start trial 0
-Trial 0 finished with value: 10.0 and parameters: {'num_accumulated_range_data': 5.082474837009532, 'ceres_translation_weight': 2, 'ceres_rotation_weight': 21, 'submaps_high_resolution_max_range': 107.72430590624008}. Best is trial 0 with value: 10.0.
-[1748279912.896870136] Start trial 1
+[1750196839.172075748] Start trial 7
+Trial 7 finished with value: 0.2861084228990427 and parameters: {'translation_weight': 4, 'rotation_weight': 25, 'high_resolution': 0.24305366661728875, 'low_resolution': 0.572816802996414}. Best is trial 4 with value: 0.09790438660565355.
+[1750196894.982354641] Start trial 8
+Trial 8 finished with value: 0.2060164684511235 and parameters: {'translation_weight': 2, 'rotation_weight': 37, 'high_resolution': 0.28756193093873256, 'low_resolution': 0.6024115634871721}. Best is trial 4 with value: 0.09790438660565355.
+[1750196950.090959072] Start trial 9
+Trial 9 finished with value: 0.1685158698122495 and parameters: {'translation_weight': 5, 'rotation_weight': 71, 'high_resolution': 0.23544685488714887, 'low_resolution': 0.5006070292934528}. Best is trial 4 with value: 0.09790438660565355.
+[1750197007.055816174] Start trial 10
+Trial 10 finished with value: 0.43980497266660135 and parameters: {'translation_weight': 5, 'rotation_weight': 58, 'high_resolution': 0.3318875247465006, 'low_resolution': 0.6250819612446233}. Best is trial 4 with value: 0.09790438660565355.
+[1750197064.276222229] Start trial 11
+Trial 11 finished with value: 0.20339011808251187 and parameters: {'translation_weight': 1, 'rotation_weight': 87, 'high_resolution': 0.119278697793598, 'low_resolution': 0.46704997563720724}. Best is trial 4 with value: 0.09790438660565355.
+[1750197133.974269152] Start trial 12
+Trial 12 finished with value: 0.41046791045357395 and parameters: {'translation_weight': 2, 'rotation_weight': 6, 'high_resolution': 0.128683077961104, 'low_resolution': 0.40248236115995556}. Best is trial 4 with value: 0.09790438660565355.
+[1750197198.520347118] Start trial 13
+Trial 13 finished with value: 0.13089358674367912 and parameters: {'translation_weight': 1, 'rotation_weight': 23, 'high_resolution': 0.1811542106546335, 'low_resolution': 0.6858004782592624}. Best is trial 4 with value: 0.09790438660565355.
+[1750197254.818310738] Start trial 14
+Trial 14 finished with value: 0.4275846907853158 and parameters: {'translation_weight': 1, 'rotation_weight': 19, 'high_resolution': 0.16947811094315868, 'low_resolution': 0.6941047418603252}. Best is trial 4 with value: 0.09790438660565355.
+[1750197312.424793005] Start trial 15
+Trial 15 finished with value: 0.2027587887156926 and parameters: {'translation_weight': 3, 'rotation_weight': 23, 'high_resolution': 0.18452384550664472, 'low_resolution': 0.6985730153810146}. Best is trial 4 with value: 0.09790438660565355.
+[1750197368.450783491] Start trial 16
+Trial 16 finished with value: 0.1675940287081419 and parameters: {'translation_weight': 7, 'rotation_weight': 15, 'high_resolution': 0.19224896141471348, 'low_resolution': 0.6496343084685625}. Best is trial 4 with value: 0.09790438660565355.
+[1750197424.149612904] Start trial 17
+Trial 17 finished with value: 0.3454570519602287 and parameters: {'translation_weight': 3, 'rotation_weight': 35, 'high_resolution': 0.2757882860069705, 'low_resolution': 0.5202306846680607}. Best is trial 4 with value: 0.09790438660565355.
+[1750197478.247664213] Start trial 18
+Trial 18 finished with value: 0.5036927531155139 and parameters: {'translation_weight': 1, 'rotation_weight': 98, 'high_resolution': 0.15818321874127847, 'low_resolution': 0.5646608620324104}. Best is trial 4 with value: 0.09790438660565355.
+[1750197538.485025644] Start trial 19
+Trial 19 finished with value: 0.3437738392547417 and parameters: {'translation_weight': 3, 'rotation_weight': 10, 'high_resolution': 0.3495978138457525, 'low_resolution': 0.6568083765114507}. Best is trial 4 with value: 0.09790438660565355.
+[1750197591.895200253] Start trial 20
+Trial 20 finished with value: 0.13227041687819804 and parameters: {'translation_weight': 9, 'rotation_weight': 28, 'high_resolution': 0.10454724636948394, 'low_resolution': 0.4193409113567584}. Best is trial 4 with value: 0.09790438660565355.
+[1750197675.344803333] Start trial 21
+Trial 21 finished with value: 0.41561946163445 and parameters: {'translation_weight': 4, 'rotation_weight': 47, 'high_resolution': 0.20896614350473516, 'low_resolution': 0.5946686603915643}. Best is trial 4 with value: 0.09790438660565355.
+[1750197732.267055035] Start trial 22

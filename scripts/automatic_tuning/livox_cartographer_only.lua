@@ -327,14 +327,14 @@ TRAJECTORY_BUILDER.collate_fixed_frame = false
 
 TRAJECTORY_BUILDER_3D.num_accumulated_range_data = 1 -- vrijedno testirati razne verzije
 -- important parameters! bigger number -> more trust in IMU
-TRAJECTORY_BUILDER_3D.ceres_scan_matcher.translation_weight = 5.
+TRAJECTORY_BUILDER_3D.ceres_scan_matcher.translation_weight = 1.
 --TRAJECTORY_BUILDER_3D.ceres_scan_matcher.translation_weight_z = 5. 
-TRAJECTORY_BUILDER_3D.ceres_scan_matcher.rotation_weight = 5. 
+TRAJECTORY_BUILDER_3D.ceres_scan_matcher.rotation_weight = 17. 
 TRAJECTORY_BUILDER_3D.submaps.high_resolution = 0.2
 TRAJECTORY_BUILDER_3D.submaps.low_resolution = 0.4
 TRAJECTORY_BUILDER_3D.submaps.high_resolution_max_range = 50.
 TRAJECTORY_BUILDER_3D.submaps.num_range_data = 800.
-
+TRAJECTORY_BUILDER_3D.max_range = 60.
 TRAJECTORY_BUILDER_3D.voxel_filter_size = 0.10
 
 
@@ -353,7 +353,7 @@ TRAJECTORY_BUILDER_3D.low_resolution_adaptive_voxel_filter = {
 MAP_BUILDER.use_trajectory_builder_3d = true
 MAP_BUILDER.num_background_threads = 3
 POSE_GRAPH.optimization_problem.huber_scale = 5e2
-POSE_GRAPH.optimize_every_n_nodes = 400
+POSE_GRAPH.optimize_every_n_nodes = 0
 POSE_GRAPH.constraint_builder.sampling_ratio = 0.02
 POSE_GRAPH.constraint_builder.max_constraint_distance = 30.
 POSE_GRAPH.optimization_problem.ceres_solver_options.max_num_iterations = 200

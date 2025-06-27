@@ -1,0 +1,258 @@
+A new study created in RDB with name: cartographer_tuning_multi_seq
+[1750671630.489212990] Start trial 0
+Trial 0 finished with values: [0.5594074130658341, 0.3688497471890845] and parameters: {'translation_weight': 5, 'rotation_weight': 10, 'num_range_data': 700, 'voxel_filter_size': 0.1, 'optimize_every_n_nodes': 380}.
+[1750671721.644986391] Start trial 1
+Trial 1 finished with values: [0.5168345463011743, 0.438484456649836] and parameters: {'translation_weight': 8, 'rotation_weight': 50, 'num_range_data': 672, 'voxel_filter_size': 0.23281267280410528, 'optimize_every_n_nodes': 429}.
+[1750671794.270782948] Start trial 2
+Trial 2 finished with values: [0.5139118543361013, 0.33715612771367137] and parameters: {'translation_weight': 2, 'rotation_weight': 55, 'num_range_data': 806, 'voxel_filter_size': 0.14407654014540766, 'optimize_every_n_nodes': 551}.
+[1750671875.291477919] Start trial 3
+Trial 3 finished with values: [0.49040354351791005, 0.33594558202281294] and parameters: {'translation_weight': 3, 'rotation_weight': 29, 'num_range_data': 757, 'voxel_filter_size': 0.12864619206133304, 'optimize_every_n_nodes': 526}.
+[1750671957.806013346] Start trial 4
+Trial 4 finished with values: [0.5132198915581965, 0.4403065178427906] and parameters: {'translation_weight': 10, 'rotation_weight': 39, 'num_range_data': 884, 'voxel_filter_size': 0.05404846954225764, 'optimize_every_n_nodes': 310}.
+[1750672062.583952904] Start trial 5
+Trial 5 finished with values: [0.5397499185169451, 0.6732453260797092] and parameters: {'translation_weight': 8, 'rotation_weight': 51, 'num_range_data': 622, 'voxel_filter_size': 0.3558875807898876, 'optimize_every_n_nodes': 348}.
+[1750672131.108063936] Start trial 6
+Trial 6 finished with values: [0.528152600816136, 0.2547646261977035] and parameters: {'translation_weight': 3, 'rotation_weight': 22, 'num_range_data': 625, 'voxel_filter_size': 0.2337880060433843, 'optimize_every_n_nodes': 216}.
+[1750672204.365315437] Start trial 7
+Trial 7 finished with values: [0.5159181178655827, 0.7285040958531046] and parameters: {'translation_weight': 9, 'rotation_weight': 56, 'num_range_data': 739, 'voxel_filter_size': 0.2709031875064935, 'optimize_every_n_nodes': 401}.
+[1750672273.169305563] Start trial 8
+Trial 8 finished with values: [0.5442087725051747, 0.6745784524390419] and parameters: {'translation_weight': 3, 'rotation_weight': 17, 'num_range_data': 746, 'voxel_filter_size': 0.2590642482298049, 'optimize_every_n_nodes': 588}.
+[1750672345.215223074] Start trial 9
+Trial 9 finished with values: [0.5305567896270034, 0.6620253763645045] and parameters: {'translation_weight': 5, 'rotation_weight': 42, 'num_range_data': 821, 'voxel_filter_size': 0.19467724118920926, 'optimize_every_n_nodes': 322}.
+[1750672422.113281012] Start trial 10
+Trial 10 finished with values: [0.532978232557627, 0.24216670673589716] and parameters: {'translation_weight': 9, 'rotation_weight': 53, 'num_range_data': 754, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 398}.
+[1750672516.875152588] Start trial 11
+Trial 11 finished with values: [0.5198293702160413, 0.3675621667533844] and parameters: {'translation_weight': 5, 'rotation_weight': 78, 'num_range_data': 632, 'voxel_filter_size': 0.25016095232122093, 'optimize_every_n_nodes': 355}.
+[1750672592.053844929] Start trial 12
+Trial 12 finished with values: [0.5468510651010031, 0.8799897890927668] and parameters: {'translation_weight': 4, 'rotation_weight': 93, 'num_range_data': 660, 'voxel_filter_size': 0.2916744130213952, 'optimize_every_n_nodes': 597}.
+[1750672662.221552372] Start trial 13
+Trial 13 finished with values: [0.5383653696548717, 0.3271380172003175] and parameters: {'translation_weight': 9, 'rotation_weight': 99, 'num_range_data': 760, 'voxel_filter_size': 0.1435978193762426, 'optimize_every_n_nodes': 358}.
+[1750672745.048442364] Start trial 14
+Trial 14 finished with values: [0.5098448172129513, 0.20061080729646721] and parameters: {'translation_weight': 1, 'rotation_weight': 13, 'num_range_data': 678, 'voxel_filter_size': 0.39823913455615717, 'optimize_every_n_nodes': 521}.
+[1750672813.126258850] Start trial 15
+Trial 15 finished with values: [0.5198903009863828, 0.4459619704124032] and parameters: {'translation_weight': 6, 'rotation_weight': 39, 'num_range_data': 666, 'voxel_filter_size': 0.384786302283653, 'optimize_every_n_nodes': 382}.
+[1750672879.720295906] Start trial 16
+Trial 16 finished with values: [0.5341618691614934, 0.30171327842140166] and parameters: {'translation_weight': 9, 'rotation_weight': 42, 'num_range_data': 733, 'voxel_filter_size': 0.3490755503119929, 'optimize_every_n_nodes': 292}.
+[1750672952.124075890] Start trial 17
+Trial 17 finished with values: [0.5420464732184578, 0.4301887683597185] and parameters: {'translation_weight': 10, 'rotation_weight': 97, 'num_range_data': 829, 'voxel_filter_size': 0.18911252889598318, 'optimize_every_n_nodes': 372}.
+[1750673034.787514448] Start trial 18
+Trial 18 finished with values: [0.5427741897624889, 0.6604606860481979] and parameters: {'translation_weight': 5, 'rotation_weight': 50, 'num_range_data': 732, 'voxel_filter_size': 0.3038379860243635, 'optimize_every_n_nodes': 439}.
+[1750673107.087668657] Start trial 19
+Trial 19 finished with values: [0.5233822510276858, 0.43952144736192955] and parameters: {'translation_weight': 7, 'rotation_weight': 70, 'num_range_data': 811, 'voxel_filter_size': 0.07823734128968451, 'optimize_every_n_nodes': 380}.
+[1750673209.400644064] Start trial 20
+Trial 20 finished with values: [0.5215900476051211, 0.4693642334970252] and parameters: {'translation_weight': 6, 'rotation_weight': 54, 'num_range_data': 662, 'voxel_filter_size': 0.1307655000850274, 'optimize_every_n_nodes': 427}.
+[1750673302.581988335] Start trial 21
+Trial 21 finished with values: [0.5419236857984886, 0.520262345563788] and parameters: {'translation_weight': 2, 'rotation_weight': 98, 'num_range_data': 766, 'voxel_filter_size': 0.2619434763078233, 'optimize_every_n_nodes': 417}.
+[1750673375.477009773] Start trial 22
+Trial 22 finished with values: [0.5347799119483314, 0.30925036704945064] and parameters: {'translation_weight': 3, 'rotation_weight': 47, 'num_range_data': 822, 'voxel_filter_size': 0.32873532267952277, 'optimize_every_n_nodes': 303}.
+[1750673443.888396502] Start trial 23
+Trial 23 finished with values: [0.5214438930386135, 0.5351912850251493] and parameters: {'translation_weight': 10, 'rotation_weight': 72, 'num_range_data': 721, 'voxel_filter_size': 0.2842621226629889, 'optimize_every_n_nodes': 363}.
+[1750673515.870411634] Start trial 24
+Trial 24 finished with values: [0.5086624102435026, 0.9250285175265771] and parameters: {'translation_weight': 3, 'rotation_weight': 62, 'num_range_data': 700, 'voxel_filter_size': 0.14987416798682415, 'optimize_every_n_nodes': 255}.
+[1750673602.280819178] Start trial 25
+Trial 25 finished with values: [0.5338328714665623, 0.3959989283589136] and parameters: {'translation_weight': 3, 'rotation_weight': 86, 'num_range_data': 809, 'voxel_filter_size': 0.18183503514386917, 'optimize_every_n_nodes': 275}.
+[1750673685.024020433] Start trial 26
+Trial 26 finished with values: [0.5192548041157564, 0.8526429865540701] and parameters: {'translation_weight': 6, 'rotation_weight': 62, 'num_range_data': 686, 'voxel_filter_size': 0.35632680798494587, 'optimize_every_n_nodes': 204}.
+[1750673755.227461576] Start trial 27
+Trial 27 finished with values: [0.5371619086749845, 0.676221618077573] and parameters: {'translation_weight': 5, 'rotation_weight': 38, 'num_range_data': 764, 'voxel_filter_size': 0.0826420006938555, 'optimize_every_n_nodes': 506}.
+[1750673854.375359535] Start trial 28
+Trial 28 finished with values: [0.5147717484107651, 0.33369037951578717] and parameters: {'translation_weight': 7, 'rotation_weight': 87, 'num_range_data': 900, 'voxel_filter_size': 0.18018368569882387, 'optimize_every_n_nodes': 550}.
+[1750673933.559324265] Start trial 29
+Trial 29 finished with values: [0.543262719666532, 0.658768108820863] and parameters: {'translation_weight': 7, 'rotation_weight': 36, 'num_range_data': 889, 'voxel_filter_size': 0.051591201372893344, 'optimize_every_n_nodes': 370}.
+[1750674045.137332439] Start trial 30
+Trial 30 finished with values: [0.520444340407407, 0.4584658035297773] and parameters: {'translation_weight': 10, 'rotation_weight': 76, 'num_range_data': 682, 'voxel_filter_size': 0.06741479213170545, 'optimize_every_n_nodes': 531}.
+[1750674154.440904379] Start trial 31
+Trial 31 finished with values: [0.5317820724304365, 0.998970132356516] and parameters: {'translation_weight': 1, 'rotation_weight': 73, 'num_range_data': 863, 'voxel_filter_size': 0.28987639606691284, 'optimize_every_n_nodes': 322}.
+[1750674224.125720978] Start trial 32
+Trial 32 finished with values: [0.5335140253983184, 0.39053435005739773] and parameters: {'translation_weight': 8, 'rotation_weight': 75, 'num_range_data': 645, 'voxel_filter_size': 0.1030206200079267, 'optimize_every_n_nodes': 568}.
+[1750674320.325686216] Start trial 33
+Trial 33 finished with values: [0.49263818643648727, 0.20471062083748576] and parameters: {'translation_weight': 3, 'rotation_weight': 5, 'num_range_data': 624, 'voxel_filter_size': 0.380976922811854, 'optimize_every_n_nodes': 309}.
+[1750674388.217473745] Start trial 34
+Trial 34 finished with values: [0.5105494488545543, 0.2489151388697926] and parameters: {'translation_weight': 6, 'rotation_weight': 8, 'num_range_data': 675, 'voxel_filter_size': 0.29878521768769867, 'optimize_every_n_nodes': 272}.
+[1750674458.532481194] Start trial 35
+Trial 35 finished with values: [0.5234469938713526, 0.753726598049272] and parameters: {'translation_weight': 10, 'rotation_weight': 30, 'num_range_data': 757, 'voxel_filter_size': 0.38172945902420413, 'optimize_every_n_nodes': 333}.
+[1750674526.299359322] Start trial 36
+Trial 36 finished with values: [0.5173144559388888, 0.5609898719849982] and parameters: {'translation_weight': 9, 'rotation_weight': 60, 'num_range_data': 897, 'voxel_filter_size': 0.2176201505013517, 'optimize_every_n_nodes': 354}.
+[1750674599.223496437] Start trial 37
+Trial 37 finished with values: [0.5148082080028041, 0.4792408699176828] and parameters: {'translation_weight': 6, 'rotation_weight': 81, 'num_range_data': 792, 'voxel_filter_size': 0.25315260721555033, 'optimize_every_n_nodes': 349}.
+[1750674673.303637028] Start trial 38
+Trial 38 finished with values: [0.5938943001716789, 0.5852123761268827] and parameters: {'translation_weight': 5, 'rotation_weight': 36, 'num_range_data': 630, 'voxel_filter_size': 0.06678610010123942, 'optimize_every_n_nodes': 464}.
+[1750674782.658030033] Start trial 39
+Trial 39 finished with values: [0.5163382959764481, 0.33704768734828844] and parameters: {'translation_weight': 7, 'rotation_weight': 85, 'num_range_data': 885, 'voxel_filter_size': 0.2086530719093418, 'optimize_every_n_nodes': 402}.
+[1750674859.248859644] Start trial 40
+Trial 40 finished with values: [0.5002558606223607, 0.581716185577194] and parameters: {'translation_weight': 7, 'rotation_weight': 18, 'num_range_data': 644, 'voxel_filter_size': 0.14902788293317637, 'optimize_every_n_nodes': 344}.
+[1750674942.174097061] Start trial 41
+Trial 41 finished with values: [0.522706287448256, 0.1859787915425321] and parameters: {'translation_weight': 7, 'rotation_weight': 43, 'num_range_data': 684, 'voxel_filter_size': 0.1503431091304706, 'optimize_every_n_nodes': 387}.
+[1750675025.679889679] Start trial 42
+Trial 42 finished with values: [0.5306545023174478, 0.6038362660040905] and parameters: {'translation_weight': 4, 'rotation_weight': 80, 'num_range_data': 775, 'voxel_filter_size': 0.2941486026109237, 'optimize_every_n_nodes': 392}.
+[1750675097.404565811] Start trial 43
+Trial 43 finished with values: [0.5118591933021786, 0.3018066374780426] and parameters: {'translation_weight': 8, 'rotation_weight': 17, 'num_range_data': 708, 'voxel_filter_size': 0.23821372717285766, 'optimize_every_n_nodes': 237}.
+[1750675169.066104412] Start trial 44
+Trial 44 finished with values: [0.5568438778158923, 0.2195711853159991] and parameters: {'translation_weight': 10, 'rotation_weight': 97, 'num_range_data': 779, 'voxel_filter_size': 0.3962179467411833, 'optimize_every_n_nodes': 220}.
+[1750675235.352962255] Start trial 45
+Trial 45 finished with values: [0.529653292366919, 0.29146504598315687] and parameters: {'translation_weight': 8, 'rotation_weight': 13, 'num_range_data': 859, 'voxel_filter_size': 0.2956745626203107, 'optimize_every_n_nodes': 277}.
+[1750675305.998665333] Start trial 46
+Trial 46 finished with values: [0.6031682039518245, 0.2840295496300424] and parameters: {'translation_weight': 10, 'rotation_weight': 5, 'num_range_data': 794, 'voxel_filter_size': 0.12474147988953294, 'optimize_every_n_nodes': 395}.
+[1750675395.914122820] Start trial 47
+Trial 47 finished with values: [0.5321547272955468, 0.5313956247896575] and parameters: {'translation_weight': 6, 'rotation_weight': 22, 'num_range_data': 729, 'voxel_filter_size': 0.17001139298932366, 'optimize_every_n_nodes': 505}.
+[1750675477.515172005] Start trial 48
+Trial 48 finished with values: [0.53319955037235, 0.2895637864418561] and parameters: {'translation_weight': 8, 'rotation_weight': 74, 'num_range_data': 717, 'voxel_filter_size': 0.33829534922656906, 'optimize_every_n_nodes': 307}.
+[1750675546.744496346] Start trial 49
+Trial 49 finished with values: [0.5226247928248647, 0.5006887635845343] and parameters: {'translation_weight': 6, 'rotation_weight': 64, 'num_range_data': 708, 'voxel_filter_size': 0.1857836766864011, 'optimize_every_n_nodes': 504}.
+[1750675625.723467588] Start trial 50
+Trial 50 finished with values: [0.5169759783182332, 0.22459268401827917] and parameters: {'translation_weight': 10, 'rotation_weight': 74, 'num_range_data': 628, 'voxel_filter_size': 0.1233624408860887, 'optimize_every_n_nodes': 255}.
+[1750675716.499190092] Start trial 51
+Trial 51 finished with values: [0.5291747435506166, 0.2183252944406909] and parameters: {'translation_weight': 7, 'rotation_weight': 60, 'num_range_data': 897, 'voxel_filter_size': 0.2176201505013517, 'optimize_every_n_nodes': 542}.
+[1750675791.514022589] Start trial 52
+Trial 52 finished with values: [0.5303389568199636, 0.7733487195811223] and parameters: {'translation_weight': 9, 'rotation_weight': 66, 'num_range_data': 739, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 401}.
+[1750675887.765782118] Start trial 53
+Trial 53 finished with values: [0.5338328129551568, 0.39599892329118097] and parameters: {'translation_weight': 3, 'rotation_weight': 86, 'num_range_data': 809, 'voxel_filter_size': 0.18183503514386917, 'optimize_every_n_nodes': 377}.
+[1750675966.940108776] Start trial 54
+Trial 54 finished with values: [0.524251238894355, 0.3578810283719733] and parameters: {'translation_weight': 9, 'rotation_weight': 41, 'num_range_data': 897, 'voxel_filter_size': 0.2176201505013517, 'optimize_every_n_nodes': 252}.
+[1750676040.830166578] Start trial 55
+Trial 55 finished with values: [0.5185916415502287, 1.1608317455418462] and parameters: {'translation_weight': 1, 'rotation_weight': 51, 'num_range_data': 622, 'voxel_filter_size': 0.28987639606691284, 'optimize_every_n_nodes': 348}.
+[1750676111.842136383] Start trial 56
+Trial 56 finished with values: [0.5494054215741497, 0.292071718048553] and parameters: {'translation_weight': 10, 'rotation_weight': 99, 'num_range_data': 760, 'voxel_filter_size': 0.1435978193762426, 'optimize_every_n_nodes': 358}.
+[1750676195.485884428] Start trial 57
+Trial 57 finished with values: [0.5328757918565822, 0.28266864820832466] and parameters: {'translation_weight': 9, 'rotation_weight': 99, 'num_range_data': 760, 'voxel_filter_size': 0.23821372717285766, 'optimize_every_n_nodes': 358}.
+[1750676268.298073769] Start trial 58
+Trial 58 finished with values: [0.5200059095061513, 0.43741982864006157] and parameters: {'translation_weight': 3, 'rotation_weight': 26, 'num_range_data': 675, 'voxel_filter_size': 0.16880428926441715, 'optimize_every_n_nodes': 255}.
+[1750676349.808628082] Start trial 59
+Trial 59 finished with values: [0.5110411719663933, 0.7162453178982313] and parameters: {'translation_weight': 8, 'rotation_weight': 73, 'num_range_data': 632, 'voxel_filter_size': 0.25016095232122093, 'optimize_every_n_nodes': 498}.
+[1750676423.709846973] Start trial 60
+Trial 60 finished with values: [0.5161779933530557, 0.42726378097901907] and parameters: {'translation_weight': 10, 'rotation_weight': 74, 'num_range_data': 628, 'voxel_filter_size': 0.06741479213170545, 'optimize_every_n_nodes': 531}.
+[1750676531.112305880] Start trial 61
+Trial 61 finished with values: [0.5290763570854512, 0.26001239286077893] and parameters: {'translation_weight': 7, 'rotation_weight': 25, 'num_range_data': 708, 'voxel_filter_size': 0.23821372717285766, 'optimize_every_n_nodes': 237}.
+[1750676605.993182898] Start trial 62
+Trial 62 finished with values: [0.5465608084481729, 0.4641376416225816] and parameters: {'translation_weight': 10, 'rotation_weight': 39, 'num_range_data': 884, 'voxel_filter_size': 0.07567728640425134, 'optimize_every_n_nodes': 382}.
+[1750676706.192923069] Start trial 63
+Trial 63 finished with values: [0.5485785264558507, 0.3281644623817621] and parameters: {'translation_weight': 8, 'rotation_weight': 50, 'num_range_data': 732, 'voxel_filter_size': 0.3038379860243635, 'optimize_every_n_nodes': 323}.
+[1750676777.374747038] Start trial 64
+Trial 64 finished with values: [0.5406042444999725, 0.44225035781123573] and parameters: {'translation_weight': 7, 'rotation_weight': 64, 'num_range_data': 708, 'voxel_filter_size': 0.0579483018341902, 'optimize_every_n_nodes': 504}.
+[1750676889.247838020] Start trial 65
+Trial 65 finished with values: [0.5302932501914595, 0.4253083097626483] and parameters: {'translation_weight': 3, 'rotation_weight': 42, 'num_range_data': 757, 'voxel_filter_size': 0.12864619206133304, 'optimize_every_n_nodes': 526}.
+[1750676976.335235119] Start trial 66
+Trial 66 finished with values: [0.5217820658046558, 0.3463668914781961] and parameters: {'translation_weight': 6, 'rotation_weight': 71, 'num_range_data': 675, 'voxel_filter_size': 0.29878521768769867, 'optimize_every_n_nodes': 272}.
+[1750677047.902812243] Start trial 67
+Trial 67 finished with values: [0.5128212965781438, 0.8950222817838279] and parameters: {'translation_weight': 4, 'rotation_weight': 64, 'num_range_data': 654, 'voxel_filter_size': 0.25315260721555033, 'optimize_every_n_nodes': 349}.
+[1750677121.245399952] Start trial 68
+Trial 68 finished with values: [0.5607798848918258, 0.27907528762984746] and parameters: {'translation_weight': 9, 'rotation_weight': 99, 'num_range_data': 754, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 483}.
+[1750677215.048948526] Start trial 69
+Trial 69 finished with values: [0.5178744507086576, 0.3705253044268146] and parameters: {'translation_weight': 9, 'rotation_weight': 13, 'num_range_data': 760, 'voxel_filter_size': 0.39823913455615717, 'optimize_every_n_nodes': 358}.
+[1750677281.720152855] Start trial 70
+Trial 70 finished with values: [0.5042918106915912, 0.2139266252553596] and parameters: {'translation_weight': 8, 'rotation_weight': 32, 'num_range_data': 708, 'voxel_filter_size': 0.23821372717285766, 'optimize_every_n_nodes': 237}.
+[1750677358.410874128] Start trial 71
+Trial 71 finished with values: [0.48481770909494076, 0.2757125151393162] and parameters: {'translation_weight': 6, 'rotation_weight': 5, 'num_range_data': 859, 'voxel_filter_size': 0.34688222026145743, 'optimize_every_n_nodes': 395}.
+[1750677427.306625843] Start trial 72
+Trial 72 finished with values: [0.5081971824719395, 0.6292945440884395] and parameters: {'translation_weight': 7, 'rotation_weight': 81, 'num_range_data': 754, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 321}.
+[1750677524.389396667] Start trial 73
+Trial 73 finished with values: [0.5768917995079239, 0.3723956445117337] and parameters: {'translation_weight': 3, 'rotation_weight': 36, 'num_range_data': 630, 'voxel_filter_size': 0.3509490927132034, 'optimize_every_n_nodes': 464}.
+[1750677594.827993870] Start trial 74
+Trial 74 finished with values: [0.5536148516804474, 0.6191443961527809] and parameters: {'translation_weight': 3, 'rotation_weight': 51, 'num_range_data': 624, 'voxel_filter_size': 0.23821372717285766, 'optimize_every_n_nodes': 200}.
+[1750677671.221046448] Start trial 75
+Trial 75 finished with values: [0.5080771229993771, 0.3483294360715901] and parameters: {'translation_weight': 2, 'rotation_weight': 13, 'num_range_data': 859, 'voxel_filter_size': 0.2956745626203107, 'optimize_every_n_nodes': 551}.
+[1750677742.904411316] Start trial 76
+Trial 76 finished with values: [0.5507641223094308, 0.7455577101218196] and parameters: {'translation_weight': 5, 'rotation_weight': 48, 'num_range_data': 806, 'voxel_filter_size': 0.18686699203013485, 'optimize_every_n_nodes': 551}.
+[1750677822.516472340] Start trial 77
+Trial 77 finished with values: [0.5215900476051211, 0.4693642334970252] and parameters: {'translation_weight': 6, 'rotation_weight': 54, 'num_range_data': 662, 'voxel_filter_size': 0.1307655000850274, 'optimize_every_n_nodes': 427}.
+[1750677911.463252068] Start trial 78
+Trial 78 finished with values: [0.5212930553320032, 0.5838605901193685] and parameters: {'translation_weight': 8, 'rotation_weight': 74, 'num_range_data': 859, 'voxel_filter_size': 0.1233624408860887, 'optimize_every_n_nodes': 277}.
+[1750678001.223880768] Start trial 79
+Trial 79 finished with values: [0.5368015462666977, 0.5877424310972045] and parameters: {'translation_weight': 7, 'rotation_weight': 73, 'num_range_data': 624, 'voxel_filter_size': 0.380976922811854, 'optimize_every_n_nodes': 380}.
+[1750678070.137112617] Start trial 80
+Trial 80 finished with values: [0.5317535092109852, 0.5450048794558873] and parameters: {'translation_weight': 7, 'rotation_weight': 47, 'num_range_data': 885, 'voxel_filter_size': 0.1503431091304706, 'optimize_every_n_nodes': 387}.
+[1750678150.634147406] Start trial 81
+Trial 81 finished with values: [0.5043425520759038, 0.6572942787556895] and parameters: {'translation_weight': 6, 'rotation_weight': 8, 'num_range_data': 624, 'voxel_filter_size': 0.380976922811854, 'optimize_every_n_nodes': 455}.
+[1750678218.502875328] Start trial 82
+Trial 82 finished with values: [0.5281584593790479, 0.25568753547875595] and parameters: {'translation_weight': 5, 'rotation_weight': 38, 'num_range_data': 764, 'voxel_filter_size': 0.06678610010123942, 'optimize_every_n_nodes': 506}.
+[1750678324.824412823] Start trial 83
+Trial 83 finished with values: [0.5198903343271345, 0.4459619911750029] and parameters: {'translation_weight': 6, 'rotation_weight': 39, 'num_range_data': 666, 'voxel_filter_size': 0.384786302283653, 'optimize_every_n_nodes': 310}.
+[1750678393.718107224] Start trial 84
+Trial 84 finished with values: [0.5349075154196091, 0.3288766830876929] and parameters: {'translation_weight': 10, 'rotation_weight': 30, 'num_range_data': 754, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 398}.
+[1750678487.667083979] Start trial 85
+Trial 85 finished with values: [0.5568765322497564, 0.21924783077196372] and parameters: {'translation_weight': 10, 'rotation_weight': 97, 'num_range_data': 653, 'voxel_filter_size': 0.3962179467411833, 'optimize_every_n_nodes': 427}.
+[1750678555.137006998] Start trial 86
+Trial 86 finished with values: [0.5473252783344558, 0.3321605461268195] and parameters: {'translation_weight': 8, 'rotation_weight': 99, 'num_range_data': 760, 'voxel_filter_size': 0.1435978193762426, 'optimize_every_n_nodes': 277}.
+[1750678639.410371780] Start trial 87
+Trial 87 finished with values: [0.5347799119483314, 0.30925036704945064] and parameters: {'translation_weight': 3, 'rotation_weight': 47, 'num_range_data': 822, 'voxel_filter_size': 0.32873532267952277, 'optimize_every_n_nodes': 303}.
+[1750678707.378888369] Start trial 88
+Trial 88 finished with values: [0.49906655113514425, 0.22599167062384828] and parameters: {'translation_weight': 2, 'rotation_weight': 16, 'num_range_data': 859, 'voxel_filter_size': 0.17335529798513538, 'optimize_every_n_nodes': 551}.
+[1750678786.297973156] Start trial 89
+Trial 89 finished with values: [0.533496072817643, 0.3911545892169197] and parameters: {'translation_weight': 8, 'rotation_weight': 75, 'num_range_data': 888, 'voxel_filter_size': 0.1030206200079267, 'optimize_every_n_nodes': 581}.
+[1750678880.491729975] Start trial 90
+Trial 90 finished with values: [0.516168034047458, 0.3642245757891466] and parameters: {'translation_weight': 7, 'rotation_weight': 55, 'num_range_data': 806, 'voxel_filter_size': 0.14407654014540766, 'optimize_every_n_nodes': 316}.
+[1750678964.490338564] Start trial 91
+Trial 91 finished with values: [0.5230935110227487, 0.9570512704749424] and parameters: {'translation_weight': 10, 'rotation_weight': 80, 'num_range_data': 884, 'voxel_filter_size': 0.05404846954225764, 'optimize_every_n_nodes': 474}.
+[1750679076.036609888] Start trial 92
+Trial 92 finished with values: [0.533777190481374, 0.2534738249137405] and parameters: {'translation_weight': 10, 'rotation_weight': 58, 'num_range_data': 682, 'voxel_filter_size': 0.14902788293317637, 'optimize_every_n_nodes': 344}.
+[1750679160.481735706] Start trial 93
+Trial 93 finished with values: [0.5145235613130253, 0.840181377093814] and parameters: {'translation_weight': 9, 'rotation_weight': 66, 'num_range_data': 760, 'voxel_filter_size': 0.1435978193762426, 'optimize_every_n_nodes': 550}.
+[1750679246.235230446] Start trial 94
+Trial 94 finished with values: [0.5356038001275661, 0.5447927970405968] and parameters: {'translation_weight': 10, 'rotation_weight': 39, 'num_range_data': 900, 'voxel_filter_size': 0.18018368569882387, 'optimize_every_n_nodes': 525}.
+[1750679323.726923704] Start trial 95
+Trial 95 finished with values: [0.5003037842336109, 0.1425894976479063] and parameters: {'translation_weight': 3, 'rotation_weight': 34, 'num_range_data': 834, 'voxel_filter_size': 0.1857836766864011, 'optimize_every_n_nodes': 363}.
+[1750679400.273874521] Start trial 96
+Trial 96 finished with values: [0.511180410993123, 0.4803801450092482] and parameters: {'translation_weight': 6, 'rotation_weight': 81, 'num_range_data': 792, 'voxel_filter_size': 0.2086530719093418, 'optimize_every_n_nodes': 556}.
+[1750679477.733480692] Start trial 97
+Trial 97 finished with values: [0.5465621287100075, 0.4037111703819813] and parameters: {'translation_weight': 8, 'rotation_weight': 17, 'num_range_data': 622, 'voxel_filter_size': 0.3558875807898876, 'optimize_every_n_nodes': 237}.
+[1750679546.367425680] Start trial 98
+Trial 98 finished with values: [0.5371739338928786, 0.2195413918711674] and parameters: {'translation_weight': 3, 'rotation_weight': 22, 'num_range_data': 624, 'voxel_filter_size': 0.380976922811854, 'optimize_every_n_nodes': 353}.
+[1750679613.987926245] Start trial 99
+Trial 99 finished with values: [0.5170594201353058, 0.4105974968052919] and parameters: {'translation_weight': 3, 'rotation_weight': 74, 'num_range_data': 645, 'voxel_filter_size': 0.1030206200079267, 'optimize_every_n_nodes': 255}.
+[1750679710.652587175] Start trial 100
+Trial 100 finished with values: [0.4959384864723007, 0.19772349565300687] and parameters: {'translation_weight': 3, 'rotation_weight': 5, 'num_range_data': 624, 'voxel_filter_size': 0.12864619206133304, 'optimize_every_n_nodes': 309}.
+[1750679800.708977461] Start trial 101
+Trial 101 finished with values: [0.5192071466573877, 0.7970628538149302] and parameters: {'translation_weight': 9, 'rotation_weight': 5, 'num_range_data': 624, 'voxel_filter_size': 0.3607619691894323, 'optimize_every_n_nodes': 309}.
+[1750679868.619129658] Start trial 102
+Trial 102 finished with values: [0.5306433497803753, 0.6038359661290876] and parameters: {'translation_weight': 4, 'rotation_weight': 80, 'num_range_data': 742, 'voxel_filter_size': 0.2941486026109237, 'optimize_every_n_nodes': 464}.
+[1750679939.033681393] Start trial 103
+Trial 103 finished with values: [0.5251188202809802, 0.4504529965749999] and parameters: {'translation_weight': 7, 'rotation_weight': 74, 'num_range_data': 785, 'voxel_filter_size': 0.36975041510943774, 'optimize_every_n_nodes': 531}.
+[1750680007.003474951] Start trial 104
+Trial 104 finished with values: [0.5226271581669448, 0.42804360147338083] and parameters: {'translation_weight': 9, 'rotation_weight': 56, 'num_range_data': 645, 'voxel_filter_size': 0.1030206200079267, 'optimize_every_n_nodes': 255}.
+[1750680101.285408974] Start trial 105
+Trial 105 finished with values: [0.5081971490140426, 0.6292945047727551] and parameters: {'translation_weight': 7, 'rotation_weight': 81, 'num_range_data': 754, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 531}.
+[1750680196.078956127] Start trial 106
+Trial 106 finished with values: [0.5205508694867942, 0.3631528248742351] and parameters: {'translation_weight': 1, 'rotation_weight': 26, 'num_range_data': 671, 'voxel_filter_size': 0.05404846954225764, 'optimize_every_n_nodes': 310}.
+[1750680310.509418488] Start trial 107
+Trial 107 finished with values: [0.5400446151213099, 0.7137857150845421] and parameters: {'translation_weight': 3, 'rotation_weight': 74, 'num_range_data': 809, 'voxel_filter_size': 0.06741479213170545, 'optimize_every_n_nodes': 531}.
+[1750680415.884876251] Start trial 108
+Trial 108 finished with values: [0.5035194804433795, 0.48451419930789036] and parameters: {'translation_weight': 6, 'rotation_weight': 27, 'num_range_data': 859, 'voxel_filter_size': 0.2956745626203107, 'optimize_every_n_nodes': 277}.
+[1750680485.365076303] Start trial 109
+Trial 109 finished with values: [0.5468510651010031, 0.8799897890927668] and parameters: {'translation_weight': 4, 'rotation_weight': 93, 'num_range_data': 660, 'voxel_filter_size': 0.2916744130213952, 'optimize_every_n_nodes': 597}.
+[1750680557.219789028] Start trial 110
+Trial 110 finished with values: [0.5233843998799503, 0.5604237488773308] and parameters: {'translation_weight': 7, 'rotation_weight': 81, 'num_range_data': 894, 'voxel_filter_size': 0.3509490927132034, 'optimize_every_n_nodes': 464}.
+[1750680624.033894062] Start trial 111
+Trial 111 finished with values: [0.5207361483668167, 0.38779780150276766] and parameters: {'translation_weight': 9, 'rotation_weight': 13, 'num_range_data': 644, 'voxel_filter_size': 0.14902788293317637, 'optimize_every_n_nodes': 358}.
+[1750680706.936196327] Start trial 112
+Trial 112 finished with values: [0.5395676008847075, 0.3303881650045419] and parameters: {'translation_weight': 3, 'rotation_weight': 26, 'num_range_data': 810, 'voxel_filter_size': 0.39316583877555006, 'optimize_every_n_nodes': 255}.
+[1750680773.631403446] Start trial 113
+Trial 113 finished with values: [0.49831943181409316, 0.5204149858161283] and parameters: {'translation_weight': 3, 'rotation_weight': 29, 'num_range_data': 684, 'voxel_filter_size': 0.1503431091304706, 'optimize_every_n_nodes': 600}.
+[1750680856.244604349] Start trial 114
+Trial 114 finished with values: [0.5465376243686151, 0.4032541468599634] and parameters: {'translation_weight': 8, 'rotation_weight': 17, 'num_range_data': 859, 'voxel_filter_size': 0.3558875807898876, 'optimize_every_n_nodes': 277}.
+[1750680922.448325396] Start trial 115
+Trial 115 finished with values: [0.5666114232091239, 0.9727068509749465] and parameters: {'translation_weight': 9, 'rotation_weight': 5, 'num_range_data': 859, 'voxel_filter_size': 0.35846497911606373, 'optimize_every_n_nodes': 395}.
+[1750680989.825912237] Start trial 116
+Trial 116 finished with values: [0.5147504799106236, 0.7053746975839664] and parameters: {'translation_weight': 7, 'rotation_weight': 43, 'num_range_data': 684, 'voxel_filter_size': 0.0641038967088054, 'optimize_every_n_nodes': 387}.
+[1750681099.770691633] Start trial 117
+Trial 117 finished with values: [0.52884908353436, 0.7221142511059113] and parameters: {'translation_weight': 7, 'rotation_weight': 60, 'num_range_data': 897, 'voxel_filter_size': 0.1503431091304706, 'optimize_every_n_nodes': 542}.
+[1750681182.092547417] Start trial 118
+Trial 118 finished with values: [0.5538016206927748, 0.24134567150480524] and parameters: {'translation_weight': 5, 'rotation_weight': 99, 'num_range_data': 754, 'voxel_filter_size': 0.06678610010123942, 'optimize_every_n_nodes': 525}.
+[1750681289.279244900] Start trial 119
+Trial 119 finished with values: [0.5332996441799053, 0.21339766781720643] and parameters: {'translation_weight': 8, 'rotation_weight': 63, 'num_range_data': 897, 'voxel_filter_size': 0.2176201505013517, 'optimize_every_n_nodes': 337}.
+[1750681364.247861147] Start trial 120
+Trial 120 finished with values: [0.5321547272955468, 0.5313956247896575] and parameters: {'translation_weight': 6, 'rotation_weight': 22, 'num_range_data': 729, 'voxel_filter_size': 0.17001139298932366, 'optimize_every_n_nodes': 505}.
+[1750681443.946047544] Start trial 121
+Trial 121 finished with values: [0.5152785537454803, 0.4242256673957891] and parameters: {'translation_weight': 10, 'rotation_weight': 24, 'num_range_data': 884, 'voxel_filter_size': 0.25315260721555033, 'optimize_every_n_nodes': 531}.
+[1750681514.434552908] Start trial 122
+Trial 122 finished with values: [0.5424788897455705, 0.33089009069759556] and parameters: {'translation_weight': 9, 'rotation_weight': 78, 'num_range_data': 730, 'voxel_filter_size': 0.25016095232122093, 'optimize_every_n_nodes': 355}.
+[1750681587.448691368] Start trial 123
+Trial 123 finished with values: [0.49594578187505883, 0.19689486887138402] and parameters: {'translation_weight': 3, 'rotation_weight': 5, 'num_range_data': 675, 'voxel_filter_size': 0.12864619206133304, 'optimize_every_n_nodes': 600}.
+[1750681676.305436611] Start trial 124
+Trial 124 finished with values: [0.5607798848918258, 0.27907528762984746] and parameters: {'translation_weight': 9, 'rotation_weight': 99, 'num_range_data': 754, 'voxel_filter_size': 0.10308020467182108, 'optimize_every_n_nodes': 483}.
+[1750681772.491984844] Start trial 125
+Trial 125 finished with values: [0.5136701722042405, 0.42210319917589795] and parameters: {'translation_weight': 5, 'rotation_weight': 63, 'num_range_data': 884, 'voxel_filter_size': 0.05404846954225764, 'optimize_every_n_nodes': 474}.
+[1750681883.916123390] Start trial 126
+Trial 126 finished with values: [0.5394639295441622, 0.580218972217279] and parameters: {'translation_weight': 3, 'rotation_weight': 74, 'num_range_data': 624, 'voxel_filter_size': 0.30312917730077027, 'optimize_every_n_nodes': 319}.
+[1750681956.115884542] Start trial 127
+Trial 127 finished with values: [0.5178744782633028, 0.37052524869548764] and parameters: {'translation_weight': 9, 'rotation_weight': 13, 'num_range_data': 760, 'voxel_filter_size': 0.39823913455615717, 'optimize_every_n_nodes': 321}.
+NumExpr defaulting to 16 threads.
