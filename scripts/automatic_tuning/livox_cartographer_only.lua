@@ -2,7 +2,7 @@ robot_name = "viv"
 MAX_3D_RANGE = 60.
 
 TRAJECTORY_BUILDER_3D = {
-  min_range = 1.,
+  min_range = 0.2,
   max_range = MAX_3D_RANGE,
   num_accumulated_range_data = 1,
   voxel_filter_size = 0.15,
@@ -352,14 +352,16 @@ TRAJECTORY_BUILDER_3D.low_resolution_adaptive_voxel_filter = {
 
 MAP_BUILDER.use_trajectory_builder_3d = true
 MAP_BUILDER.num_background_threads = 3
-POSE_GRAPH.optimization_problem.huber_scale = 5e2
-POSE_GRAPH.optimize_every_n_nodes = 0
-POSE_GRAPH.constraint_builder.sampling_ratio = 0.02
-POSE_GRAPH.constraint_builder.max_constraint_distance = 30.
-POSE_GRAPH.optimization_problem.ceres_solver_options.max_num_iterations = 200
-POSE_GRAPH.constraint_builder.min_score = 0.4
-POSE_GRAPH.constraint_builder.global_localization_min_score = 0.66
-POSE_GRAPH.optimization_problem.rotation_weight = 0.0
-POSE_GRAPH.optimization_problem.acceleration_weight = 1e2
+
+
+POSE_GRAPH.optimization_problem.huber_scale = 5e2     --ima smisla da je postavljen na 0 (0-500)
+POSE_GRAPH.optimize_every_n_nodes = 0     -- (0 - x), cjelobrojni visekratnik optimalnog hiperparam. num_range_data, ako je too complicated onda samo diskretne vrijednosti 
+POSE_GRAPH.constraint_builder.sampling_ratio = 0.02  --(0.1 - 0.3) ako je premalo moze iskljuciti globalni slam, on određuje broj čvorova trajekotrije koji postaju kandidati za loop closing
+POSE_GRAPH.constraint_builder.max_constraint_distance = 30. -- max radijus unutar kojeg se traze kandidati NE DIRAJ
+POSE_GRAPH.optimization_problem.ceres_solver_options.max_num_iterations = 200 -- not touching
+--POSE_GRAPH.constraint_builder.min_score = 0.4 --defaultno 0.55
+POSE_GRAPH.constraint_builder.global_localization_min_score = 0.66  --ne mijenjati
+POSE_GRAPH.optimization_problem.rotation_weight = 0.0 --obicno iskljucimo, pokusava orijentaciju u estimiranoj trajekotriji poklopiti sa zasumljenom integr ziroskopom IMU-a
+POSE_GRAPH.optimization_problem.acceleration_weight = 1e2 -- (0-1000) optimizacija gravitacije (problem potonuca, z os), 0,50,100,1000 kandidati
 
 return options

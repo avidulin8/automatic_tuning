@@ -10,6 +10,9 @@
   <arg name="configuration_basenames" default="$(eval conf.rsplit('/', 1)[1])"/>
   <param name="/use_sim_time" value="true" />
 
+  <arg name="out_dir" default="/tmp/results/bags"/>
+  <arg name="tf_bag"  default="$(arg out_dir)/cartographer_tf.bag"/>
+
   <group unless="$(arg no_rviz)">
     <node name="rviz"
           pkg="rviz"
@@ -32,9 +35,14 @@
           -bag_filenames $(arg rosbag)"
       launch-prefix="$(arg launch_prefix)"
       output="screen"> 
-    <remap from="points2" to="os0_128/points" />
+      <rosparam subst_value="true">
+      /record_tf/roslaunch/uris: []
+    </rosparam>
+    <remap from="points2" to="/velodyne_points" />
     <remap from="imu" to="mavros/imu/data"/>
   </node>
 
+  <node pkg="rosbag" type="record" name="record_tf" output="screen"
+        args="-O $(arg tf_bag) /tf"/>
 
 </launch>

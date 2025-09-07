@@ -21,7 +21,7 @@ class AutomaticTuning(ABC):
 		logger.addHandler(logging.FileHandler(study_name + '/log/log_%02d.log' % self.log_id, mode='w'))
 		optuna.logging.enable_propagation()
 
-		self.study = optuna.create_study(study_name=study_name, directions=["minimize", "minimize"], storage='sqlite:///%s/optuna.db' % study_name, load_if_exists=True)
+		self.study = optuna.create_study(study_name=study_name, directions=["minimize"], storage='sqlite:///%s/optuna.db' % study_name, load_if_exists=True) #ako se radi multiobjective optimizacija treba dodati smjer u 'directions'
 
 	def optimize(self, n_trials):
 		def objective(trial):

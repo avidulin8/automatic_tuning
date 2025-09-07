@@ -100,6 +100,7 @@ class CartographerTuning(AutomaticTuning):
 
         os.makedirs('/tmp/results', exist_ok=True)
         os.makedirs('/tmp/results/traj_eval', exist_ok=True)
+        os.makedirs('/tmp/results/bags', exist_ok=True)
 
         conf_filename = '/tmp/results/cartographer_config.lua'
         lua_table_str_options = self.lua_table_to_string(self.options_dict)
@@ -134,9 +135,7 @@ class CartographerTuning(AutomaticTuning):
 
     def run_cartographer(self, bag_filename, conf_filename, traj_filename):
         subprocess.run(['roslaunch', '/home/arijan/Documents/Diplomski_rad/automatic_tuning/scripts/automatic_tuning/offline_cartographer.launch', 'rosbag:=%s' % bag_filename, 'conf:=%s' % conf_filename])
-
-        subprocess.run(['rosrun', 'cartographer_ros', 'cartographer_dev_pbstream_trajectories_to_rosbag', '-input=%s.pbstream' % bag_filename, '-output=/tmp/integrated_to_init.bag'])
-        subprocess.run(['python3', '/home/arijan/catkin_ws/src/rpg_trajectory_evaluation/scripts/dataset_tools/bag_to_pose.py', '/tmp/integrated_to_init.bag', 'trajectory_0', '--msg_type=TransformStamped', '--output=%s' % traj_filename])
+        subprocess.run(['python3', '/home/arijan/catkin_ws/src/rpg_trajectory_evaluation/scripts/dataset_tools/bag_to_pose.py', '/tmp/results/bags/cartographer_tf.bag', '/tf', '--msg_type=tf2_msgs/TFMessage', '--output=%s' % traj_filename])
     
     def run_rpg_ate(self, gt_filename, traj_filename):
         shutil.copy(gt_filename, '/tmp/results/traj_eval/stamped_groundtruth.txt')
@@ -152,10 +151,10 @@ class CartographerTuning(AutomaticTuning):
         return data
     
 def main():
-    sequences = [16]
+    sequences = [1, 3, 5, 7, 12, 15]
     for i in sequences:
 
-        tuning = CartographerTuning('cartographer_all_parameters_bag%s_real' % i, i)
+        tuning = CartographerTuning('cartographer_all_parameters_bag%s_vlp16' % i, i)
 
         x0 = {
             'translation_weight': 5,
@@ -166,13 +165,13 @@ def main():
         if tuning.log_id == 0:
             tuning.study.enqueue_trial(x0)
 
-        #tuning.optimize(n_trials=1024)
+        tuning.optimize(n_trials=1024)
         #brisanje tmp direktorija s preostalim trajektorijama
         if os.path.exists("/tmp/results"):
             shutil.rmtree("/tmp/results")
-        importances_dict=optuna.importance.get_param_importances(study=tuning.study, normalize=False, params=['rotation_weight','high_resolution','low_resolution','num_range_data','voxel_filter_size','max_range','high_res_max_length','high_res_min_num_points','high_res_max_range','low_res_max_length','low_res_min_num_points','low_res_max_range'])
+        importances_dict=optuna.importance.get_param_importances(study=tuning.study, normalize=False)
 
-        param_importances_output = '/home/arijan/Documents/Diplomski_rad/automatic_tuning/cartographer_all_parameters_bag%s_real/log/param_importances2.txt' % i
+        param_importances_output = '/home/arijan/Documents/Diplomski_rad/automatic_tuning/cartographer_all_parameters_bag%s_vlp16/log/param_importances.txt' % i
         with open(param_importances_output, 'w') as f:
             for key, value in importances_dict.items():
                 print(f"{key}: {value}")
