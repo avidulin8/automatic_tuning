@@ -16,13 +16,12 @@ class AutomaticTuning(ABC):
 		self.log_id = 0
 		while os.path.exists(study_name + '/log/log_%02d.log' % self.log_id):
 			self.log_id += 1		
-
 		logger = logging.getLogger()
 		logger.setLevel(logging.INFO)
 		logger.addHandler(logging.FileHandler(study_name + '/log/log_%02d.log' % self.log_id, mode='w'))
 		optuna.logging.enable_propagation()
 
-		self.study = optuna.create_study(study_name=study_name, storage='sqlite:///%s/optuna.db' % study_name, load_if_exists=True)
+		self.study = optuna.create_study(study_name=study_name, directions=["minimize"], storage='sqlite:///%s/optuna.db' % study_name, load_if_exists=True) #ako se radi multiobjective optimizacija treba dodati smjer u 'directions'
 
 	def optimize(self, n_trials):
 		def objective(trial):

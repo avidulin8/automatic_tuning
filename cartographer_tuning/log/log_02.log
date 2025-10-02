@@ -1,0 +1,257 @@
+Using an existing study with name 'cartographer_tuning' instead of creating a new one.
+[1750197801.411916971] Start trial 23
+Trial 23 finished with value: 0.18980386298766194 and parameters: {'translation_weight': 10, 'rotation_weight': 28, 'high_resolution': 0.13962366704110918, 'low_resolution': 0.4037411551935739}. Best is trial 4 with value: 0.09790438660565355.
+[1750197862.953033209] Start trial 24
+Trial 24 finished with value: 0.43245431957017044 and parameters: {'translation_weight': 8, 'rotation_weight': 14, 'high_resolution': 0.10862396032328861, 'low_resolution': 0.45007553542589396}. Best is trial 4 with value: 0.09790438660565355.
+[1750197941.271754980] Start trial 25
+Trial 25 finished with value: 0.3417633474760392 and parameters: {'translation_weight': 9, 'rotation_weight': 29, 'high_resolution': 0.14939907732790392, 'low_resolution': 0.5168766351586984}. Best is trial 4 with value: 0.09790438660565355.
+[1750198001.647957087] Start trial 26
+Trial 26 finished with value: 0.6464414161957821 and parameters: {'translation_weight': 6, 'rotation_weight': 41, 'high_resolution': 0.2151422442761883, 'low_resolution': 0.4547796359243492}. Best is trial 4 with value: 0.09790438660565355.
+[1750198059.135748863] Start trial 27
+Trial 27 finished with value: 0.512963845500229 and parameters: {'translation_weight': 8, 'rotation_weight': 2, 'high_resolution': 0.10275527436141726, 'low_resolution': 0.5454660704752756}. Best is trial 4 with value: 0.09790438660565355.
+[1750198138.854826689] Start trial 28
+Trial 28 finished with value: 0.12417903077903737 and parameters: {'translation_weight': 7, 'rotation_weight': 20, 'high_resolution': 0.2584067803294749, 'low_resolution': 0.4843822507061901}. Best is trial 4 with value: 0.09790438660565355.
+[1750198194.247126102] Start trial 29
+Trial 29 finished with value: 0.9134522430347696 and parameters: {'translation_weight': 7, 'rotation_weight': 18, 'high_resolution': 0.2664185793037837, 'low_resolution': 0.4897679718984528}. Best is trial 4 with value: 0.09790438660565355.
+[1750198247.857885361] Start trial 30
+Trial 30 finished with value: 0.8141663495705982 and parameters: {'translation_weight': 4, 'rotation_weight': 11, 'high_resolution': 0.3002921073302615, 'low_resolution': 0.534420345857834}. Best is trial 4 with value: 0.09790438660565355.
+[1750198300.778652191] Start trial 31
+Trial 31 finished with value: 0.3740409385133494 and parameters: {'translation_weight': 2, 'rotation_weight': 4, 'high_resolution': 0.2522642863215036, 'low_resolution': 0.6706631591523423}. Best is trial 4 with value: 0.09790438660565355.
+[1750198354.505310535] Start trial 32
+Trial 32 finished with value: 0.11726154186442482 and parameters: {'translation_weight': 7, 'rotation_weight': 69, 'high_resolution': 0.31515254912998336, 'low_resolution': 0.4820206204848768}. Best is trial 4 with value: 0.09790438660565355.
+[1750198408.839190006] Start trial 33
+Trial 33 finished with value: 0.24650539147320163 and parameters: {'translation_weight': 7, 'rotation_weight': 77, 'high_resolution': 0.3128650652838434, 'low_resolution': 0.4771491096061853}. Best is trial 4 with value: 0.09790438660565355.
+[1750198463.048330069] Start trial 34
+Trial 34 finished with value: 0.21918437360816712 and parameters: {'translation_weight': 6, 'rotation_weight': 63, 'high_resolution': 0.3105704439846739, 'low_resolution': 0.43804643762107}. Best is trial 4 with value: 0.09790438660565355.
+[1750198517.515185833] Start trial 35
+Trial 35 finished with value: 0.6632474005357626 and parameters: {'translation_weight': 7, 'rotation_weight': 73, 'high_resolution': 0.2611968947420169, 'low_resolution': 0.49911467018543443}. Best is trial 4 with value: 0.09790438660565355.
+[1750198572.840852261] Start trial 36
+Trial 36 finished with value: 0.7416781459851031 and parameters: {'translation_weight': 6, 'rotation_weight': 84, 'high_resolution': 0.22646450198097448, 'low_resolution': 0.4284823974893665}. Best is trial 4 with value: 0.09790438660565355.
+[1750198629.418351412] Start trial 37
+Trial 37 finished with value: 0.5235264581568089 and parameters: {'translation_weight': 1, 'rotation_weight': 52, 'high_resolution': 0.2456634967046897, 'low_resolution': 0.5680490965789917}. Best is trial 4 with value: 0.09790438660565355.
+[1750198684.225471258] Start trial 38
+Trial 38 finished with value: 0.1989784803542411 and parameters: {'translation_weight': 8, 'rotation_weight': 43, 'high_resolution': 0.1959245075913066, 'low_resolution': 0.6027682241617803}. Best is trial 4 with value: 0.09790438660565355.
+[1750198740.682383299] Start trial 39
+Trial 39 finished with value: 0.340907898389437 and parameters: {'translation_weight': 5, 'rotation_weight': 21, 'high_resolution': 0.2868970567179597, 'low_resolution': 0.5195318735395452}. Best is trial 4 with value: 0.09790438660565355.
+[1750198793.775089502] Start trial 40
+Trial 40 finished with value: 0.19657548801610386 and parameters: {'translation_weight': 9, 'rotation_weight': 31, 'high_resolution': 0.3283493665708406, 'low_resolution': 0.47954395726776244}. Best is trial 4 with value: 0.09790438660565355.
+[1750198847.728353977] Start trial 41
+Trial 41 finished with value: 0.8620811831172989 and parameters: {'translation_weight': 2, 'rotation_weight': 63, 'high_resolution': 0.23319963971120394, 'low_resolution': 0.5833255741456888}. Best is trial 4 with value: 0.09790438660565355.
+[1750198904.387303829] Start trial 42
+Trial 42 finished with value: 0.23922005252144649 and parameters: {'translation_weight': 5, 'rotation_weight': 56, 'high_resolution': 0.28769488297911344, 'low_resolution': 0.6244161872405419}. Best is trial 4 with value: 0.09790438660565355.
+[1750198958.945439339] Start trial 43
+Trial 43 finished with value: 0.4166525997495401 and parameters: {'translation_weight': 9, 'rotation_weight': 29, 'high_resolution': 0.16717743638724658, 'low_resolution': 0.422718631040431}. Best is trial 4 with value: 0.09790438660565355.
+[1750199017.639778852] Start trial 44
+Trial 44 finished with value: 0.13148153508859994 and parameters: {'translation_weight': 10, 'rotation_weight': 24, 'high_resolution': 0.12599873028813718, 'low_resolution': 0.4574586359090195}. Best is trial 4 with value: 0.09790438660565355.
+[1750199082.478343725] Start trial 45
+Trial 45 finished with value: 0.23820222155519302 and parameters: {'translation_weight': 10, 'rotation_weight': 7, 'high_resolution': 0.13077227115955983, 'low_resolution': 0.4642831946963938}. Best is trial 4 with value: 0.09790438660565355.
+[1750199147.831680775] Start trial 46
+Trial 46 finished with value: 0.18284757131877918 and parameters: {'translation_weight': 6, 'rotation_weight': 37, 'high_resolution': 0.18028915575466073, 'low_resolution': 0.5082114749435247}. Best is trial 4 with value: 0.09790438660565355.
+[1750199204.866190434] Start trial 47
+Trial 47 finished with value: 0.21351533035683273 and parameters: {'translation_weight': 8, 'rotation_weight': 24, 'high_resolution': 0.3467841134041043, 'low_resolution': 0.4892990450812008}. Best is trial 4 with value: 0.09790438660565355.
+[1750199257.903847933] Start trial 48
+Trial 48 finished with value: 0.40609641148280934 and parameters: {'translation_weight': 1, 'rotation_weight': 15, 'high_resolution': 0.14303044279648575, 'low_resolution': 0.44506611658255785}. Best is trial 4 with value: 0.09790438660565355.
+[1750199318.252655268] Start trial 49
+Trial 49 finished with value: 0.7854255127403734 and parameters: {'translation_weight': 3, 'rotation_weight': 19, 'high_resolution': 0.20032220625060698, 'low_resolution': 0.5354223233211115}. Best is trial 4 with value: 0.09790438660565355.
+[1750199373.478109837] Start trial 50
+Trial 50 finished with value: 0.35730033371429737 and parameters: {'translation_weight': 4, 'rotation_weight': 34, 'high_resolution': 0.12025627555760797, 'low_resolution': 0.4691908645326232}. Best is trial 4 with value: 0.09790438660565355.
+[1750199440.896842957] Start trial 51
+Trial 51 finished with value: 0.39002362620170483 and parameters: {'translation_weight': 7, 'rotation_weight': 11, 'high_resolution': 0.17267907915345235, 'low_resolution': 0.680053594455339}. Best is trial 4 with value: 0.09790438660565355.
+[1750199498.055294275] Start trial 52
+Trial 52 finished with value: 0.42768317352734847 and parameters: {'translation_weight': 1, 'rotation_weight': 24, 'high_resolution': 0.3260450374656549, 'low_resolution': 0.6362549890341733}. Best is trial 4 with value: 0.09790438660565355.
+[1750199549.371265173] Start trial 53
+Trial 53 finished with value: 1.020006201463491 and parameters: {'translation_weight': 9, 'rotation_weight': 27, 'high_resolution': 0.11583244405032163, 'low_resolution': 0.4128286268021653}. Best is trial 4 with value: 0.09790438660565355.
+[1750199604.419806719] Start trial 54
+Trial 54 finished with value: 0.1316064642921941 and parameters: {'translation_weight': 10, 'rotation_weight': 48, 'high_resolution': 0.1526213740173849, 'low_resolution': 0.42483354230619785}. Best is trial 4 with value: 0.09790438660565355.
+[1750199658.234858513] Start trial 55
+Trial 55 finished with value: 0.17854576352987356 and parameters: {'translation_weight': 10, 'rotation_weight': 48, 'high_resolution': 0.1570253169617441, 'low_resolution': 0.4333628357437472}. Best is trial 4 with value: 0.09790438660565355.
+[1750199712.502871275] Start trial 56
+Trial 56 finished with value: 0.50992849699267 and parameters: {'translation_weight': 10, 'rotation_weight': 42, 'high_resolution': 0.1318799380772126, 'low_resolution': 0.4576382173230269}. Best is trial 4 with value: 0.09790438660565355.
+[1750199767.502879143] Start trial 57
+Trial 57 finished with value: 0.3044638321416826 and parameters: {'translation_weight': 9, 'rotation_weight': 69, 'high_resolution': 0.15620530655798825, 'low_resolution': 0.407564345927929}. Best is trial 4 with value: 0.09790438660565355.
+[1750199828.557024240] Start trial 58
+Trial 58 finished with value: 0.2715978537356694 and parameters: {'translation_weight': 10, 'rotation_weight': 90, 'high_resolution': 0.18447841478069033, 'low_resolution': 0.44716964459319064}. Best is trial 4 with value: 0.09790438660565355.
+[1750199882.255990028] Start trial 59
+Trial 59 finished with value: 0.20803130358440608 and parameters: {'translation_weight': 8, 'rotation_weight': 32, 'high_resolution': 0.2110564374319165, 'low_resolution': 0.5557040338551302}. Best is trial 4 with value: 0.09790438660565355.
+[1750199934.166604519] Start trial 60
+Trial 60 finished with value: 0.5649700504753812 and parameters: {'translation_weight': 2, 'rotation_weight': 15, 'high_resolution': 0.1411065877785173, 'low_resolution': 0.49227070004759277}. Best is trial 4 with value: 0.09790438660565355.
+[1750199988.321347475] Start trial 61
+Trial 61 finished with value: 0.5024581359865701 and parameters: {'translation_weight': 3, 'rotation_weight': 21, 'high_resolution': 0.16789074383592836, 'low_resolution': 0.4727519724558061}. Best is trial 4 with value: 0.09790438660565355.
+[1750200041.390705109] Start trial 62
+Trial 62 finished with value: 0.4082850466217104 and parameters: {'translation_weight': 4, 'rotation_weight': 37, 'high_resolution': 0.2728935479695564, 'low_resolution': 0.5083634718481193}. Best is trial 4 with value: 0.09790438660565355.
+[1750200092.381150484] Start trial 63
+Trial 63 finished with value: 0.26400398747604276 and parameters: {'translation_weight': 9, 'rotation_weight': 17, 'high_resolution': 0.10654358379747975, 'low_resolution': 0.43981582734178504}. Best is trial 4 with value: 0.09790438660565355.
+[1750200149.340705633] Start trial 64
+Trial 64 finished with value: 0.18620838404985088 and parameters: {'translation_weight': 10, 'rotation_weight': 26, 'high_resolution': 0.12216440361327242, 'low_resolution': 0.41905403247609774}. Best is trial 4 with value: 0.09790438660565355.
+[1750200204.335083485] Start trial 65
+Trial 65 finished with value: 0.2615233645999655 and parameters: {'translation_weight': 9, 'rotation_weight': 10, 'high_resolution': 0.10149523896099359, 'low_resolution': 0.455697815930241}. Best is trial 4 with value: 0.09790438660565355.
+[1750200261.555312634] Start trial 66
+Trial 66 finished with value: 0.3170949521401282 and parameters: {'translation_weight': 10, 'rotation_weight': 61, 'high_resolution': 0.11162003608559815, 'low_resolution': 0.4266283619862225}. Best is trial 4 with value: 0.09790438660565355.
+[1750200318.338905096] Start trial 67
+Trial 67 finished with value: 0.11260879800481409 and parameters: {'translation_weight': 9, 'rotation_weight': 21, 'high_resolution': 0.12751667037002096, 'low_resolution': 0.4002423193637102}. Best is trial 4 with value: 0.09790438660565355.
+[1750200372.231450319] Start trial 68
+Trial 68 finished with value: 0.3512886614254005 and parameters: {'translation_weight': 7, 'rotation_weight': 81, 'high_resolution': 0.14737454526348479, 'low_resolution': 0.4000815077856233}. Best is trial 4 with value: 0.09790438660565355.
+[1750200426.400290251] Start trial 69
+Trial 69 finished with value: 0.6772226669427219 and parameters: {'translation_weight': 9, 'rotation_weight': 1, 'high_resolution': 0.13445266407959414, 'low_resolution': 0.4144373042686877}. Best is trial 4 with value: 0.09790438660565355.
+[1750200480.482051611] Start trial 70
+Trial 70 finished with value: 0.14851663713813001 and parameters: {'translation_weight': 10, 'rotation_weight': 68, 'high_resolution': 0.12412523904582802, 'low_resolution': 0.46224668822950876}. Best is trial 4 with value: 0.09790438660565355.
+[1750200536.287478209] Start trial 71
+Trial 71 finished with value: 0.8977115539174385 and parameters: {'translation_weight': 1, 'rotation_weight': 7, 'high_resolution': 0.15256958254096714, 'low_resolution': 0.48457435067786714}. Best is trial 4 with value: 0.09790438660565355.
+[1750200589.344872475] Start trial 72
+Trial 72 finished with value: 0.23806617203912217 and parameters: {'translation_weight': 8, 'rotation_weight': 21, 'high_resolution': 0.25379517393974504, 'low_resolution': 0.5324788493604533}. Best is trial 4 with value: 0.09790438660565355.
+[1750200641.312945366] Start trial 73
+Trial 73 finished with value: 0.322736009528665 and parameters: {'translation_weight': 8, 'rotation_weight': 13, 'high_resolution': 0.11715172281107869, 'low_resolution': 0.43302164139367993}. Best is trial 4 with value: 0.09790438660565355.
+[1750200696.448743582] Start trial 74
+Trial 74 finished with value: 0.4899183279962188 and parameters: {'translation_weight': 9, 'rotation_weight': 23, 'high_resolution': 0.1271031935473774, 'low_resolution': 0.41230300954696325}. Best is trial 4 with value: 0.09790438660565355.
+[1750200751.321275473] Start trial 75
+Trial 75 finished with value: 0.21388290130959686 and parameters: {'translation_weight': 10, 'rotation_weight': 32, 'high_resolution': 0.1375945929347671, 'low_resolution': 0.42206917969171087}. Best is trial 4 with value: 0.09790438660565355.
+[1750200805.322960854] Start trial 76
+Trial 76 finished with value: 0.9147212940455056 and parameters: {'translation_weight': 9, 'rotation_weight': 17, 'high_resolution': 0.21999217258520365, 'low_resolution': 0.4456706513290566}. Best is trial 4 with value: 0.09790438660565355.
+[1750200856.329669952] Start trial 77
+Trial 77 finished with value: 0.5933544437109592 and parameters: {'translation_weight': 6, 'rotation_weight': 29, 'high_resolution': 0.29371695291422695, 'low_resolution': 0.40338286777586463}. Best is trial 4 with value: 0.09790438660565355.
+[1750200908.235486269] Start trial 78
+Trial 78 finished with value: 0.11610021631121657 and parameters: {'translation_weight': 8, 'rotation_weight': 52, 'high_resolution': 0.11220916416650134, 'low_resolution': 0.438059803159982}. Best is trial 4 with value: 0.09790438660565355.
+[1750200965.311853170] Start trial 79
+Trial 79 finished with value: 0.24021935055890933 and parameters: {'translation_weight': 8, 'rotation_weight': 53, 'high_resolution': 0.16063867054073983, 'low_resolution': 0.43852713208545063}. Best is trial 4 with value: 0.09790438660565355.
+[1750201018.342678547] Start trial 80
+Trial 80 finished with value: 0.2427243487033144 and parameters: {'translation_weight': 7, 'rotation_weight': 74, 'high_resolution': 0.2376163246578661, 'low_resolution': 0.5012968297137854}. Best is trial 4 with value: 0.09790438660565355.
+[1750201070.256358624] Start trial 81
+Trial 81 finished with value: 1.001415802569686 and parameters: {'translation_weight': 8, 'rotation_weight': 49, 'high_resolution': 0.3102906575012961, 'low_resolution': 0.6041289385785962}. Best is trial 4 with value: 0.09790438660565355.
+[1750201122.352812052] Start trial 82
+Trial 82 finished with value: 0.2493541237550844 and parameters: {'translation_weight': 7, 'rotation_weight': 56, 'high_resolution': 0.20346105169747106, 'low_resolution': 0.4656501132800354}. Best is trial 4 with value: 0.09790438660565355.
+[1750201174.297105074] Start trial 83
+Trial 83 finished with value: 0.3968732156388703 and parameters: {'translation_weight': 9, 'rotation_weight': 44, 'high_resolution': 0.11032995285925712, 'low_resolution': 0.4293134718081444}. Best is trial 4 with value: 0.09790438660565355.
+[1750201230.253503561] Start trial 84
+Trial 84 finished with value: 0.1995113314259774 and parameters: {'translation_weight': 10, 'rotation_weight': 21, 'high_resolution': 0.14556959490736057, 'low_resolution': 0.4507556298479503}. Best is trial 4 with value: 0.09790438660565355.
+[1750201284.359466553] Start trial 85
+Trial 85 finished with value: 0.38039926870904084 and parameters: {'translation_weight': 8, 'rotation_weight': 65, 'high_resolution': 0.1024268727475427, 'low_resolution': 0.4201830411793234}. Best is trial 4 with value: 0.09790438660565355.
+[1750201342.191500425] Start trial 86
+Trial 86 finished with value: 0.4442457450707269 and parameters: {'translation_weight': 9, 'rotation_weight': 39, 'high_resolution': 0.11562093434749508, 'low_resolution': 0.4793331355960175}. Best is trial 4 with value: 0.09790438660565355.
+[1750201397.365882397] Start trial 87
+Trial 87 finished with value: 0.2059032431522534 and parameters: {'translation_weight': 6, 'rotation_weight': 25, 'high_resolution': 0.3404392095032132, 'low_resolution': 0.43894959014049234}. Best is trial 4 with value: 0.09790438660565355.
+[1750201448.332152128] Start trial 88
+Trial 88 finished with value: 0.4286872812927057 and parameters: {'translation_weight': 7, 'rotation_weight': 13, 'high_resolution': 0.1299083889164626, 'low_resolution': 0.4093694345778644}. Best is trial 4 with value: 0.09790438660565355.
+[1750201502.359980822] Start trial 89
+Trial 89 finished with value: 0.5420016789674975 and parameters: {'translation_weight': 1, 'rotation_weight': 45, 'high_resolution': 0.1769513745079622, 'low_resolution': 0.6880229644430624}. Best is trial 4 with value: 0.09790438660565355.
+[1750201554.251989841] Start trial 90
+Trial 90 finished with value: 0.5976046155178422 and parameters: {'translation_weight': 2, 'rotation_weight': 96, 'high_resolution': 0.19119819214343325, 'low_resolution': 0.6675362448414283}. Best is trial 4 with value: 0.09790438660565355.
+[1750201607.368393660] Start trial 91
+Trial 91 finished with value: 0.5222107823908797 and parameters: {'translation_weight': 5, 'rotation_weight': 18, 'high_resolution': 0.13637532892554288, 'low_resolution': 0.42974364112098584}. Best is trial 4 with value: 0.09790438660565355.
+[1750201661.430079699] Start trial 92
+Trial 92 finished with value: 0.18642430012000835 and parameters: {'translation_weight': 10, 'rotation_weight': 27, 'high_resolution': 0.109186677588513, 'low_resolution': 0.47117304960118767}. Best is trial 4 with value: 0.09790438660565355.
+[1750201718.021094322] Start trial 93
+Trial 93 finished with value: 0.1850229205450872 and parameters: {'translation_weight': 10, 'rotation_weight': 69, 'high_resolution': 0.12282899263633933, 'low_resolution': 0.4593802286476661}. Best is trial 4 with value: 0.09790438660565355.
+[1750201773.425059557] Start trial 94
+Trial 94 finished with value: 0.39975662022917413 and parameters: {'translation_weight': 10, 'rotation_weight': 78, 'high_resolution': 0.12645265639794062, 'low_resolution': 0.46013710272488767}. Best is trial 4 with value: 0.09790438660565355.
+[1750201828.535018682] Start trial 95
+Trial 95 finished with value: 0.9498567440625778 and parameters: {'translation_weight': 9, 'rotation_weight': 70, 'high_resolution': 0.12205140735435235, 'low_resolution': 0.5797401584092793}. Best is trial 4 with value: 0.09790438660565355.
+[1750201885.281159639] Start trial 96
+Trial 96 finished with value: 0.1907556269757186 and parameters: {'translation_weight': 10, 'rotation_weight': 65, 'high_resolution': 0.11529979815146377, 'low_resolution': 0.45218407732995847}. Best is trial 4 with value: 0.09790438660565355.
+[1750201941.266092539] Start trial 97
+Trial 97 finished with value: 0.6535614079424074 and parameters: {'translation_weight': 9, 'rotation_weight': 23, 'high_resolution': 0.16451118760916716, 'low_resolution': 0.49514725249484565}. Best is trial 4 with value: 0.09790438660565355.
+[1750201994.401121855] Start trial 98
+Trial 98 finished with value: 0.18040124289324633 and parameters: {'translation_weight': 10, 'rotation_weight': 59, 'high_resolution': 0.15244626601105274, 'low_resolution': 0.48446061966666226}. Best is trial 4 with value: 0.09790438660565355.
+[1750202048.428204060] Start trial 99
+Trial 99 finished with value: 0.20619368207888325 and parameters: {'translation_weight': 8, 'rotation_weight': 66, 'high_resolution': 0.13978585541303076, 'low_resolution': 0.41627767253567294}. Best is trial 4 with value: 0.09790438660565355.
+[1750202102.355891466] Start trial 100
+Trial 100 finished with value: 0.5396597058402848 and parameters: {'translation_weight': 9, 'rotation_weight': 30, 'high_resolution': 0.10524368601698623, 'low_resolution': 0.5271343623377492}. Best is trial 4 with value: 0.09790438660565355.
+[1750202159.405585051] Start trial 101
+Trial 101 finished with value: 0.1748032319309005 and parameters: {'translation_weight': 10, 'rotation_weight': 55, 'high_resolution': 0.2762336092428966, 'low_resolution': 0.44402518312712513}. Best is trial 4 with value: 0.09790438660565355.
+[1750202211.388921261] Start trial 102
+Trial 102 finished with value: 0.2354198120140606 and parameters: {'translation_weight': 2, 'rotation_weight': 34, 'high_resolution': 0.31972925844703876, 'low_resolution': 0.43582687716286356}. Best is trial 4 with value: 0.09790438660565355.
+[1750202263.189456463] Start trial 103
+Trial 103 finished with value: 0.4352605578171782 and parameters: {'translation_weight': 2, 'rotation_weight': 52, 'high_resolution': 0.228273403282942, 'low_resolution': 0.5093930876230208}. Best is trial 4 with value: 0.09790438660565355.
+[1750202315.177657604] Start trial 104
+Trial 104 finished with value: 0.38902617042549215 and parameters: {'translation_weight': 1, 'rotation_weight': 20, 'high_resolution': 0.12642821829204373, 'low_resolution': 0.4066617912244093}. Best is trial 4 with value: 0.09790438660565355.
+[1750202370.224762678] Start trial 105
+Trial 105 finished with value: 0.29955509799333097 and parameters: {'translation_weight': 1, 'rotation_weight': 72, 'high_resolution': 0.10105530822875367, 'low_resolution': 0.47471151897162683}. Best is trial 4 with value: 0.09790438660565355.
+[1750202427.554827452] Start trial 106
+Trial 106 finished with value: 0.15142514965995604 and parameters: {'translation_weight': 1, 'rotation_weight': 47, 'high_resolution': 0.13240372476770523, 'low_resolution': 0.42455399778830766}. Best is trial 4 with value: 0.09790438660565355.
+[1750202481.252441168] Start trial 107
+Trial 107 finished with value: 0.1316649372544395 and parameters: {'translation_weight': 1, 'rotation_weight': 49, 'high_resolution': 0.11277847405914881, 'low_resolution': 0.4256898841141196}. Best is trial 4 with value: 0.09790438660565355.
+[1750202537.237930775] Start trial 108
+Trial 108 finished with value: 0.12245980190560912 and parameters: {'translation_weight': 8, 'rotation_weight': 50, 'high_resolution': 0.11346354909357768, 'low_resolution': 0.46230532437551486}. Best is trial 4 with value: 0.09790438660565355.
+[1750202594.371728420] Start trial 109
+Trial 109 finished with value: 0.3012640136641507 and parameters: {'translation_weight': 8, 'rotation_weight': 40, 'high_resolution': 0.11198680710245836, 'low_resolution': 0.6386447026080226}. Best is trial 4 with value: 0.09790438660565355.
+[1750202650.242783785] Start trial 110
+Trial 110 finished with value: 0.2978966783759586 and parameters: {'translation_weight': 7, 'rotation_weight': 50, 'high_resolution': 0.1072831726693656, 'low_resolution': 0.545836111142699}. Best is trial 4 with value: 0.09790438660565355.
+[1750202707.284471750] Start trial 111
+Trial 111 finished with value: 0.4261653224491104 and parameters: {'translation_weight': 8, 'rotation_weight': 57, 'high_resolution': 0.11993826587728247, 'low_resolution': 0.44152227851387366}. Best is trial 4 with value: 0.09790438660565355.
+[1750202762.349127769] Start trial 112
+Trial 112 finished with value: 0.3064761352787582 and parameters: {'translation_weight': 7, 'rotation_weight': 61, 'high_resolution': 0.11393368052897646, 'low_resolution': 0.41743399258380254}. Best is trial 4 with value: 0.09790438660565355.
+[1750202818.275719881] Start trial 113
+Trial 113 finished with value: 0.4711800866412599 and parameters: {'translation_weight': 1, 'rotation_weight': 16, 'high_resolution': 0.12107177579076156, 'low_resolution': 0.4625571186487112}. Best is trial 4 with value: 0.09790438660565355.
+[1750202873.193217278] Start trial 114
+Trial 114 finished with value: 0.45797417329639195 and parameters: {'translation_weight': 9, 'rotation_weight': 76, 'high_resolution': 0.14345640814263386, 'low_resolution': 0.4538262274107711}. Best is trial 4 with value: 0.09790438660565355.
+[1750202927.370018959] Start trial 115
+Trial 115 finished with value: 0.21977933291169366 and parameters: {'translation_weight': 10, 'rotation_weight': 46, 'high_resolution': 0.12507605278171025, 'low_resolution': 0.4670554382306303}. Best is trial 4 with value: 0.09790438660565355.
+[1750202982.378226280] Start trial 116
+Trial 116 finished with value: 0.5069370697607821 and parameters: {'translation_weight': 8, 'rotation_weight': 51, 'high_resolution': 0.13417826249661363, 'low_resolution': 0.40024746986081816}. Best is trial 4 with value: 0.09790438660565355.
+[1750203036.389942884] Start trial 117
+Trial 117 finished with value: 0.26846763582760436 and parameters: {'translation_weight': 1, 'rotation_weight': 67, 'high_resolution': 0.10613351999049227, 'low_resolution': 0.48554193817765534}. Best is trial 4 with value: 0.09790438660565355.
+[1750203093.376893759] Start trial 118
+Trial 118 finished with value: 0.27998301779282636 and parameters: {'translation_weight': 6, 'rotation_weight': 36, 'high_resolution': 0.14864395394736427, 'low_resolution': 0.4332964409426443}. Best is trial 4 with value: 0.09790438660565355.
+[1750203147.333676100] Start trial 119
+Trial 119 finished with value: 0.27162358199405123 and parameters: {'translation_weight': 9, 'rotation_weight': 19, 'high_resolution': 0.11454039165410987, 'low_resolution': 0.44926679700123356}. Best is trial 4 with value: 0.09790438660565355.
+[1750203203.488632202] Start trial 120
+Trial 120 finished with value: 0.3120153846809921 and parameters: {'translation_weight': 10, 'rotation_weight': 54, 'high_resolution': 0.10078206998675708, 'low_resolution': 0.4236073638910817}. Best is trial 4 with value: 0.09790438660565355.
+[1750203261.261656284] Start trial 121
+Trial 121 finished with value: 0.3196698270721911 and parameters: {'translation_weight': 7, 'rotation_weight': 26, 'high_resolution': 0.26191674929381564, 'low_resolution': 0.40933074258854657}. Best is trial 4 with value: 0.09790438660565355.
+[1750203312.310665369] Start trial 122
+Trial 122 finished with value: 0.44350132070415443 and parameters: {'translation_weight': 9, 'rotation_weight': 22, 'high_resolution': 0.12929590196298288, 'low_resolution': 0.42929227109648993}. Best is trial 4 with value: 0.09790438660565355.
+[1750203366.338485241] Start trial 123
+Trial 123 finished with value: 0.48070077954334184 and parameters: {'translation_weight': 1, 'rotation_weight': 43, 'high_resolution': 0.1315726758320899, 'low_resolution': 0.4245564498043918}. Best is trial 4 with value: 0.09790438660565355.
+[1750203420.364757538] Start trial 124
+Trial 124 finished with value: 0.25421295620524614 and parameters: {'translation_weight': 1, 'rotation_weight': 48, 'high_resolution': 0.1389499379129832, 'low_resolution': 0.414405833935644}. Best is trial 4 with value: 0.09790438660565355.
+[1750203474.374082804] Start trial 125
+Trial 125 finished with value: 0.671827702439874 and parameters: {'translation_weight': 2, 'rotation_weight': 48, 'high_resolution': 0.24769600087667604, 'low_resolution': 0.4458670079463557}. Best is trial 4 with value: 0.09790438660565355.
+[1750203526.084934950] Start trial 126
+Trial 126 finished with value: 0.5709323323967439 and parameters: {'translation_weight': 1, 'rotation_weight': 50, 'high_resolution': 0.11971536562067653, 'low_resolution': 0.456631247449868}. Best is trial 4 with value: 0.09790438660565355.
+[1750203581.339742899] Start trial 127
+Trial 127 finished with value: 0.20367235011138585 and parameters: {'translation_weight': 1, 'rotation_weight': 46, 'high_resolution': 0.30536625344743823, 'low_resolution': 0.4208059325745391}. Best is trial 4 with value: 0.09790438660565355.
+[1750203632.206153870] Start trial 128
+Trial 128 finished with value: 0.25740662823575533 and parameters: {'translation_weight': 1, 'rotation_weight': 12, 'high_resolution': 0.10864584726564974, 'low_resolution': 0.43631424403136937}. Best is trial 4 with value: 0.09790438660565355.
+[1750203688.264544249] Start trial 129
+Trial 129 finished with value: 0.2651212556268373 and parameters: {'translation_weight': 10, 'rotation_weight': 63, 'high_resolution': 0.1350849310463034, 'low_resolution': 0.4749908731003366}. Best is trial 4 with value: 0.09790438660565355.
+[1750203742.384187698] Start trial 130
+Trial 130 finished with value: 0.23548319667579887 and parameters: {'translation_weight': 9, 'rotation_weight': 39, 'high_resolution': 0.11794575880763443, 'low_resolution': 0.555267281025908}. Best is trial 4 with value: 0.09790438660565355.
+[1750203798.315301895] Start trial 131
+Trial 131 finished with value: 1.1139325529842015 and parameters: {'translation_weight': 8, 'rotation_weight': 25, 'high_resolution': 0.12548697124713445, 'low_resolution': 0.5012855434649347}. Best is trial 4 with value: 0.09790438660565355.
+[1750203853.477316141] Start trial 132
+Trial 132 finished with value: 0.3810941264561865 and parameters: {'translation_weight': 10, 'rotation_weight': 15, 'high_resolution': 0.17381121848115053, 'low_resolution': 0.5954405957806786}. Best is trial 4 with value: 0.09790438660565355.
+[1750203906.244206429] Start trial 133
+Trial 133 finished with value: 0.1557544880424546 and parameters: {'translation_weight': 3, 'rotation_weight': 58, 'high_resolution': 0.13087844326666334, 'low_resolution': 0.4643817342582019}. Best is trial 4 with value: 0.09790438660565355.
+[1750203961.169586420] Start trial 134
+Trial 134 finished with value: 0.3832320267624741 and parameters: {'translation_weight': 3, 'rotation_weight': 59, 'high_resolution': 0.11203323643375802, 'low_resolution': 0.4683589078053001}. Best is trial 4 with value: 0.09790438660565355.
+[1750204018.201761007] Start trial 135
+Trial 135 finished with value: 0.22955049043509754 and parameters: {'translation_weight': 3, 'rotation_weight': 51, 'high_resolution': 0.15382344855323316, 'low_resolution': 0.48066894324069837}. Best is trial 4 with value: 0.09790438660565355.
+[1750204071.434975147] Start trial 136
+Trial 136 finished with value: 0.259953357644446 and parameters: {'translation_weight': 4, 'rotation_weight': 55, 'high_resolution': 0.1438956520994598, 'low_resolution': 0.4644890752277362}. Best is trial 4 with value: 0.09790438660565355.
+[1750204125.264895916] Start trial 137
+Trial 137 finished with value: 0.2692258089020178 and parameters: {'translation_weight': 1, 'rotation_weight': 42, 'high_resolution': 0.13041412321376403, 'low_resolution': 0.42822211999672527}. Best is trial 4 with value: 0.09790438660565355.
+[1750204179.193366289] Start trial 138
+Trial 138 finished with value: 0.3102422468480387 and parameters: {'translation_weight': 2, 'rotation_weight': 63, 'high_resolution': 0.2809842599279439, 'low_resolution': 0.4421077453757505}. Best is trial 4 with value: 0.09790438660565355.
+[1750204230.211118937] Start trial 139
+Trial 139 finished with value: 0.7630249012092114 and parameters: {'translation_weight': 2, 'rotation_weight': 9, 'high_resolution': 0.12307189933203087, 'low_resolution': 0.4511422334015783}. Best is trial 4 with value: 0.09790438660565355.
+[1750204284.306167603] Start trial 140
+Trial 140 finished with value: 0.21152222276057042 and parameters: {'translation_weight': 5, 'rotation_weight': 53, 'high_resolution': 0.1839929693778577, 'low_resolution': 0.6138009831172226}. Best is trial 4 with value: 0.09790438660565355.
+[1750204336.370355368] Start trial 141
+Trial 141 finished with value: 0.17058775632244247 and parameters: {'translation_weight': 1, 'rotation_weight': 17, 'high_resolution': 0.1621812801343263, 'low_resolution': 0.4053546123917364}. Best is trial 4 with value: 0.09790438660565355.
+[1750204389.239452124] Start trial 142
+Trial 142 finished with value: 0.31278570344053763 and parameters: {'translation_weight': 7, 'rotation_weight': 58, 'high_resolution': 0.19105197729415313, 'low_resolution': 0.4143273914139007}. Best is trial 4 with value: 0.09790438660565355.
+[1750204440.915981293] Start trial 143
+Trial 143 finished with value: 0.13596419756807535 and parameters: {'translation_weight': 2, 'rotation_weight': 47, 'high_resolution': 0.11726726646982069, 'low_resolution': 0.4597590135845113}. Best is trial 4 with value: 0.09790438660565355.
+[1750204496.263338089] Start trial 144
+Trial 144 finished with value: 0.2661144945937438 and parameters: {'translation_weight': 2, 'rotation_weight': 46, 'high_resolution': 0.11558446191065283, 'low_resolution': 0.4587553326764559}. Best is trial 4 with value: 0.09790438660565355.
+[1750204552.298786640] Start trial 145
+Trial 145 finished with value: 0.25043912304534965 and parameters: {'translation_weight': 1, 'rotation_weight': 23, 'high_resolution': 0.10986568588634071, 'low_resolution': 0.47214843677124485}. Best is trial 4 with value: 0.09790438660565355.
+[1750204608.346802950] Start trial 146
+Trial 146 finished with value: 0.24338006342461982 and parameters: {'translation_weight': 2, 'rotation_weight': 28, 'high_resolution': 0.1275158860962409, 'low_resolution': 0.46171310126117354}. Best is trial 4 with value: 0.09790438660565355.
+[1750204662.449868202] Start trial 147
+Trial 147 finished with value: 1.2652824940411533 and parameters: {'translation_weight': 1, 'rotation_weight': 48, 'high_resolution': 0.11847652299714494, 'low_resolution': 0.48959990009915033}. Best is trial 4 with value: 0.09790438660565355.
+[1750204717.249491453] Start trial 148
+Trial 148 finished with value: 0.20794180666731132 and parameters: {'translation_weight': 6, 'rotation_weight': 20, 'high_resolution': 0.10432345205278583, 'low_resolution': 0.433612634351712}. Best is trial 4 with value: 0.09790438660565355.
+[1750204774.414187670] Start trial 149
+Trial 149 finished with value: 0.4555394795442713 and parameters: {'translation_weight': 8, 'rotation_weight': 75, 'high_resolution': 0.13497475081497662, 'low_resolution': 0.4789965851240882}. Best is trial 4 with value: 0.09790438660565355.
+[1750204829.185354233] Start trial 150
+Trial 150 finished with value: 0.38833812411653135 and parameters: {'translation_weight': 10, 'rotation_weight': 44, 'high_resolution': 0.1414081692141692, 'low_resolution': 0.44976366453264505}. Best is trial 4 with value: 0.09790438660565355.

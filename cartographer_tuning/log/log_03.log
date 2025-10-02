@@ -1,0 +1,514 @@
+Using an existing study with name 'cartographer_tuning' instead of creating a new one.
+[1750372341.302083015] Start trial 155
+Trial 155 finished with value: 0.47660961465574153 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.3829163652223256, 'optimize_every_n_nodes': 597}. Best is trial 4 with value: 0.09790438660565355.
+[1750372378.542585850] Start trial 156
+Trial 156 finished with value: 0.39537686084325147 and parameters: {'num_range_data': 896, 'voxel_filter_size': 0.3262322754379964, 'optimize_every_n_nodes': 593}. Best is trial 4 with value: 0.09790438660565355.
+[1750372417.145145178] Start trial 157
+Trial 157 finished with value: 0.7581904178857026 and parameters: {'num_range_data': 627, 'voxel_filter_size': 0.22982892914464045, 'optimize_every_n_nodes': 222}. Best is trial 4 with value: 0.09790438660565355.
+[1750372462.158174515] Start trial 158
+Trial 158 finished with value: 0.23129612207688297 and parameters: {'num_range_data': 784, 'voxel_filter_size': 0.253640927134165, 'optimize_every_n_nodes': 471}. Best is trial 4 with value: 0.09790438660565355.
+[1750372505.089141607] Start trial 159
+Trial 159 finished with value: 0.08889039273470664 and parameters: {'num_range_data': 824, 'voxel_filter_size': 0.0895508037177418, 'optimize_every_n_nodes': 458}. Best is trial 159 with value: 0.08889039273470664.
+[1750372565.871982574] Start trial 160
+Trial 160 finished with value: 0.16114685811345056 and parameters: {'num_range_data': 829, 'voxel_filter_size': 0.06026179553095523, 'optimize_every_n_nodes': 469}. Best is trial 159 with value: 0.08889039273470664.
+[1750372634.833430290] Start trial 161
+Trial 161 finished with value: 0.6246220008122323 and parameters: {'num_range_data': 837, 'voxel_filter_size': 0.14258930991106278, 'optimize_every_n_nodes': 478}. Best is trial 159 with value: 0.08889039273470664.
+[1750372686.750018120] Start trial 162
+Trial 162 finished with value: 0.19239907618191926 and parameters: {'num_range_data': 834, 'voxel_filter_size': 0.15445952534878848, 'optimize_every_n_nodes': 374}. Best is trial 159 with value: 0.08889039273470664.
+[1750372737.621345520] Start trial 163
+Trial 163 finished with value: 0.3227321426208154 and parameters: {'num_range_data': 657, 'voxel_filter_size': 0.3097586193368018, 'optimize_every_n_nodes': 528}. Best is trial 159 with value: 0.08889039273470664.
+[1750372779.605000257] Start trial 164
+Trial 164 finished with value: 0.27817520526160733 and parameters: {'num_range_data': 860, 'voxel_filter_size': 0.16822431089043413, 'optimize_every_n_nodes': 283}. Best is trial 159 with value: 0.08889039273470664.
+[1750372827.558946133] Start trial 165
+Trial 165 finished with value: 0.24294251494187982 and parameters: {'num_range_data': 798, 'voxel_filter_size': 0.39864133151649506, 'optimize_every_n_nodes': 531}. Best is trial 159 with value: 0.08889039273470664.
+[1750372865.643093586] Start trial 166
+Trial 166 finished with value: 0.49441411843482913 and parameters: {'num_range_data': 705, 'voxel_filter_size': 0.28657723478699165, 'optimize_every_n_nodes': 412}. Best is trial 159 with value: 0.08889039273470664.
+[1750372907.231800079] Start trial 167
+Trial 167 finished with value: 0.19570039127429972 and parameters: {'num_range_data': 869, 'voxel_filter_size': 0.10276515887273592, 'optimize_every_n_nodes': 532}. Best is trial 159 with value: 0.08889039273470664.
+[1750372963.894698858] Start trial 168
+Trial 168 finished with value: 0.4595496774674895 and parameters: {'num_range_data': 788, 'voxel_filter_size': 0.19337391711405472, 'optimize_every_n_nodes': 424}. Best is trial 159 with value: 0.08889039273470664.
+[1750373009.546269178] Start trial 169
+Trial 169 finished with value: 0.58716009650453 and parameters: {'num_range_data': 732, 'voxel_filter_size': 0.3447209819530298, 'optimize_every_n_nodes': 311}. Best is trial 159 with value: 0.08889039273470664.
+[1750373048.292552471] Start trial 170
+Trial 170 finished with value: 0.6583819737430661 and parameters: {'num_range_data': 875, 'voxel_filter_size': 0.25341444849105377, 'optimize_every_n_nodes': 550}. Best is trial 159 with value: 0.08889039273470664.
+[1750373089.521020889] Start trial 171
+Trial 171 finished with value: 0.37500819599284246 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.1069746922104294, 'optimize_every_n_nodes': 451}. Best is trial 159 with value: 0.08889039273470664.
+[1750373144.502372265] Start trial 172
+Trial 172 finished with value: 0.16782205150967724 and parameters: {'num_range_data': 763, 'voxel_filter_size': 0.20324144887385323, 'optimize_every_n_nodes': 501}. Best is trial 159 with value: 0.08889039273470664.
+[1750373189.750273228] Start trial 173
+Trial 173 finished with value: 0.31052514812860577 and parameters: {'num_range_data': 701, 'voxel_filter_size': 0.35745040720218746, 'optimize_every_n_nodes': 577}. Best is trial 159 with value: 0.08889039273470664.
+[1750373229.034216166] Start trial 174
+Trial 174 finished with value: 0.694460302650591 and parameters: {'num_range_data': 854, 'voxel_filter_size': 0.2848353659309957, 'optimize_every_n_nodes': 358}. Best is trial 159 with value: 0.08889039273470664.
+[1750373271.115369558] Start trial 175
+Trial 175 finished with value: 0.24202749799138587 and parameters: {'num_range_data': 822, 'voxel_filter_size': 0.052964094360662545, 'optimize_every_n_nodes': 448}. Best is trial 159 with value: 0.08889039273470664.
+[1750373332.350976706] Start trial 176
+Trial 176 finished with value: 0.32569307870483605 and parameters: {'num_range_data': 879, 'voxel_filter_size': 0.09259435379413074, 'optimize_every_n_nodes': 508}. Best is trial 159 with value: 0.08889039273470664.
+[1750373387.126208067] Start trial 177
+Trial 177 finished with value: 0.32875702760014597 and parameters: {'num_range_data': 842, 'voxel_filter_size': 0.08301756695344581, 'optimize_every_n_nodes': 397}. Best is trial 159 with value: 0.08889039273470664.
+[1750373441.043066978] Start trial 178
+Trial 178 finished with value: 0.13965490009307466 and parameters: {'num_range_data': 806, 'voxel_filter_size': 0.11953277970306753, 'optimize_every_n_nodes': 474}. Best is trial 159 with value: 0.08889039273470664.
+[1750373490.028237820] Start trial 179
+Trial 179 finished with value: 0.4227749912592578 and parameters: {'num_range_data': 807, 'voxel_filter_size': 0.1283011954784497, 'optimize_every_n_nodes': 561}. Best is trial 159 with value: 0.08889039273470664.
+[1750373538.106837749] Start trial 180
+Trial 180 finished with value: 0.4848014851034986 and parameters: {'num_range_data': 778, 'voxel_filter_size': 0.17677831102683678, 'optimize_every_n_nodes': 501}. Best is trial 159 with value: 0.08889039273470664.
+[1750373581.952240944] Start trial 181
+Trial 181 finished with value: 0.16406328169921827 and parameters: {'num_range_data': 731, 'voxel_filter_size': 0.12143414424561676, 'optimize_every_n_nodes': 431}. Best is trial 159 with value: 0.08889039273470664.
+[1750373633.913502455] Start trial 182
+Trial 182 finished with value: 0.16266900239879883 and parameters: {'num_range_data': 764, 'voxel_filter_size': 0.07791933421287842, 'optimize_every_n_nodes': 325}. Best is trial 159 with value: 0.08889039273470664.
+[1750373695.521067858] Start trial 183
+Trial 183 finished with value: 0.19192573571105864 and parameters: {'num_range_data': 748, 'voxel_filter_size': 0.22617413057457358, 'optimize_every_n_nodes': 402}. Best is trial 159 with value: 0.08889039273470664.
+[1750373737.098595619] Start trial 184
+Trial 184 finished with value: 0.4875339024353474 and parameters: {'num_range_data': 848, 'voxel_filter_size': 0.13380086852754333, 'optimize_every_n_nodes': 564}. Best is trial 159 with value: 0.08889039273470664.
+[1750373784.025005579] Start trial 185
+Trial 185 finished with value: 0.1848861249977033 and parameters: {'num_range_data': 893, 'voxel_filter_size': 0.06537847111717181, 'optimize_every_n_nodes': 477}. Best is trial 159 with value: 0.08889039273470664.
+[1750373842.877719402] Start trial 186
+Trial 186 finished with value: 0.10900420607838043 and parameters: {'num_range_data': 799, 'voxel_filter_size': 0.057557875972951714, 'optimize_every_n_nodes': 450}. Best is trial 159 with value: 0.08889039273470664.
+[1750373904.410753727] Start trial 187
+Trial 187 finished with value: 0.2579711544487681 and parameters: {'num_range_data': 808, 'voxel_filter_size': 0.050026551376793675, 'optimize_every_n_nodes': 382}. Best is trial 159 with value: 0.08889039273470664.
+[1750373968.883509874] Start trial 188
+Trial 188 finished with value: 0.22846391188509504 and parameters: {'num_range_data': 771, 'voxel_filter_size': 0.10648951925390276, 'optimize_every_n_nodes': 454}. Best is trial 159 with value: 0.08889039273470664.
+[1750374021.103054762] Start trial 189
+Trial 189 finished with value: 0.36868473683739617 and parameters: {'num_range_data': 793, 'voxel_filter_size': 0.07609520003299822, 'optimize_every_n_nodes': 600}. Best is trial 159 with value: 0.08889039273470664.
+[1750374077.552185059] Start trial 190
+Trial 190 finished with value: 0.14112883539640195 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.25026111474774076, 'optimize_every_n_nodes': 488}. Best is trial 159 with value: 0.08889039273470664.
+[1750374117.145493507] Start trial 191
+Trial 191 finished with value: 0.31233725904690135 and parameters: {'num_range_data': 897, 'voxel_filter_size': 0.25657288977904047, 'optimize_every_n_nodes': 484}. Best is trial 159 with value: 0.08889039273470664.
+[1750374156.217545509] Start trial 192
+Trial 192 finished with value: 0.24395896331509087 and parameters: {'num_range_data': 883, 'voxel_filter_size': 0.3075560128803266, 'optimize_every_n_nodes': 433}. Best is trial 159 with value: 0.08889039273470664.
+[1750374192.930508137] Start trial 193
+Trial 193 finished with value: 0.447578658627298 and parameters: {'num_range_data': 862, 'voxel_filter_size': 0.3476016325918454, 'optimize_every_n_nodes': 461}. Best is trial 159 with value: 0.08889039273470664.
+[1750374229.031786203] Start trial 194
+Trial 194 finished with value: 0.7299255597908655 and parameters: {'num_range_data': 827, 'voxel_filter_size': 0.2106565800522159, 'optimize_every_n_nodes': 516}. Best is trial 159 with value: 0.08889039273470664.
+[1750374270.011311531] Start trial 195
+Trial 195 finished with value: 0.6363833686999123 and parameters: {'num_range_data': 611, 'voxel_filter_size': 0.24505080686416222, 'optimize_every_n_nodes': 481}. Best is trial 159 with value: 0.08889039273470664.
+[1750374310.962080240] Start trial 196
+Trial 196 finished with value: 0.4959151142179205 and parameters: {'num_range_data': 887, 'voxel_filter_size': 0.14641715553924411, 'optimize_every_n_nodes': 254}. Best is trial 159 with value: 0.08889039273470664.
+[1750374357.207392693] Start trial 197
+Trial 197 finished with value: 0.17845925101781773 and parameters: {'num_range_data': 899, 'voxel_filter_size': 0.38019645704896254, 'optimize_every_n_nodes': 544}. Best is trial 159 with value: 0.08889039273470664.
+[1750374393.105098724] Start trial 198
+Trial 198 finished with value: 0.4607698645384256 and parameters: {'num_range_data': 840, 'voxel_filter_size': 0.2755433553976579, 'optimize_every_n_nodes': 493}. Best is trial 159 with value: 0.08889039273470664.
+[1750374431.961922884] Start trial 199
+Trial 199 finished with value: 0.49542613876392505 and parameters: {'num_range_data': 867, 'voxel_filter_size': 0.3236236759261776, 'optimize_every_n_nodes': 438}. Best is trial 159 with value: 0.08889039273470664.
+[1750374468.901169300] Start trial 200
+Trial 200 finished with value: 0.177337183435532 and parameters: {'num_range_data': 659, 'voxel_filter_size': 0.16480750801565316, 'optimize_every_n_nodes': 412}. Best is trial 159 with value: 0.08889039273470664.
+[1750374513.959307671] Start trial 201
+Trial 201 finished with value: 0.14742711085475188 and parameters: {'num_range_data': 803, 'voxel_filter_size': 0.1171365324106382, 'optimize_every_n_nodes': 523}. Best is trial 159 with value: 0.08889039273470664.
+[1750374564.234543085] Start trial 202
+Trial 202 finished with value: 0.6030624732254338 and parameters: {'num_range_data': 800, 'voxel_filter_size': 0.11779761017322968, 'optimize_every_n_nodes': 521}. Best is trial 159 with value: 0.08889039273470664.
+[1750374613.146840096] Start trial 203
+Trial 203 finished with value: 0.1000499611276305 and parameters: {'num_range_data': 816, 'voxel_filter_size': 0.09147974651356332, 'optimize_every_n_nodes': 578}. Best is trial 159 with value: 0.08889039273470664.
+[1750374666.190899134] Start trial 204
+Trial 204 finished with value: 0.14342442122835936 and parameters: {'num_range_data': 821, 'voxel_filter_size': 0.09206600842840543, 'optimize_every_n_nodes': 581}. Best is trial 159 with value: 0.08889039273470664.
+[1750374719.245487213] Start trial 205
+Trial 205 finished with value: 0.08247601018404224 and parameters: {'num_range_data': 821, 'voxel_filter_size': 0.09503609678188038, 'optimize_every_n_nodes': 581}. Best is trial 205 with value: 0.08247601018404224.
+[1750374772.235561132] Start trial 206
+Trial 206 finished with value: 0.3658866514431398 and parameters: {'num_range_data': 818, 'voxel_filter_size': 0.09271374561851235, 'optimize_every_n_nodes': 585}. Best is trial 205 with value: 0.08247601018404224.
+[1750374825.277963877] Start trial 207
+Trial 207 finished with value: 0.37477066965255623 and parameters: {'num_range_data': 830, 'voxel_filter_size': 0.06793790448426182, 'optimize_every_n_nodes': 582}. Best is trial 205 with value: 0.08247601018404224.
+[1750374882.419039726] Start trial 208
+Trial 208 finished with value: 0.6707571686694405 and parameters: {'num_range_data': 807, 'voxel_filter_size': 0.08577961269059892, 'optimize_every_n_nodes': 561}. Best is trial 205 with value: 0.08247601018404224.
+[1750374938.205754042] Start trial 209
+Trial 209 finished with value: 0.5104756308064786 and parameters: {'num_range_data': 783, 'voxel_filter_size': 0.11201806934157404, 'optimize_every_n_nodes': 539}. Best is trial 205 with value: 0.08247601018404224.
+[1750374988.258648634] Start trial 210
+Trial 210 finished with value: 0.3509024973019049 and parameters: {'num_range_data': 818, 'voxel_filter_size': 0.0993442542605414, 'optimize_every_n_nodes': 570}. Best is trial 205 with value: 0.08247601018404224.
+[1750375040.233428955] Start trial 211
+Trial 211 finished with value: 0.22244588827814588 and parameters: {'num_range_data': 798, 'voxel_filter_size': 0.07062208674585504, 'optimize_every_n_nodes': 591}. Best is trial 205 with value: 0.08247601018404224.
+[1750375097.463721991] Start trial 212
+Trial 212 finished with value: 0.5188652165816697 and parameters: {'num_range_data': 833, 'voxel_filter_size': 0.09660968926243252, 'optimize_every_n_nodes': 552}. Best is trial 205 with value: 0.08247601018404224.
+[1750375150.229398251] Start trial 213
+Trial 213 finished with value: 0.1724700548137744 and parameters: {'num_range_data': 852, 'voxel_filter_size': 0.13187644714288566, 'optimize_every_n_nodes': 598}. Best is trial 205 with value: 0.08247601018404224.
+[1750375197.213916779] Start trial 214
+Trial 214 finished with value: 0.18213847066747627 and parameters: {'num_range_data': 789, 'voxel_filter_size': 0.08489160783840796, 'optimize_every_n_nodes': 467}. Best is trial 205 with value: 0.08247601018404224.
+[1750375251.502710342] Start trial 215
+Trial 215 finished with value: 0.3500740787482242 and parameters: {'num_range_data': 814, 'voxel_filter_size': 0.061136068488310755, 'optimize_every_n_nodes': 575}. Best is trial 205 with value: 0.08247601018404224.
+[1750375311.538936853] Start trial 216
+Trial 216 finished with value: 0.14040089866553543 and parameters: {'num_range_data': 824, 'voxel_filter_size': 0.11136424463245478, 'optimize_every_n_nodes': 530}. Best is trial 205 with value: 0.08247601018404224.
+[1750375363.158380032] Start trial 217
+Trial 217 finished with value: 0.3663621712743372 and parameters: {'num_range_data': 841, 'voxel_filter_size': 0.11510759402492884, 'optimize_every_n_nodes': 529}. Best is trial 205 with value: 0.08247601018404224.
+[1750375412.071406364] Start trial 218
+Trial 218 finished with value: 0.5586210864111197 and parameters: {'num_range_data': 804, 'voxel_filter_size': 0.14109013270118462, 'optimize_every_n_nodes': 494}. Best is trial 205 with value: 0.08247601018404224.
+[1750375459.227192163] Start trial 219
+Trial 219 finished with value: 0.25624173943434025 and parameters: {'num_range_data': 830, 'voxel_filter_size': 0.10382508675484686, 'optimize_every_n_nodes': 554}. Best is trial 205 with value: 0.08247601018404224.
+[1750375510.213806868] Start trial 220
+Trial 220 finished with value: 0.1512464202012214 and parameters: {'num_range_data': 822, 'voxel_filter_size': 0.0855169653560693, 'optimize_every_n_nodes': 511}. Best is trial 205 with value: 0.08247601018404224.
+[1750375564.372117281] Start trial 221
+Trial 221 finished with value: 0.6092271724960341 and parameters: {'num_range_data': 874, 'voxel_filter_size': 0.1170613601379828, 'optimize_every_n_nodes': 535}. Best is trial 205 with value: 0.08247601018404224.
+[1750375613.022264481] Start trial 222
+Trial 222 finished with value: 0.23748873696324516 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.09599968416455523, 'optimize_every_n_nodes': 579}. Best is trial 205 with value: 0.08247601018404224.
+[1750375665.179447889] Start trial 223
+Trial 223 finished with value: 0.2965900040463363 and parameters: {'num_range_data': 775, 'voxel_filter_size': 0.07606745842092405, 'optimize_every_n_nodes': 444}. Best is trial 205 with value: 0.08247601018404224.
+[1750375721.543242455] Start trial 224
+Trial 224 finished with value: 0.46481827042376495 and parameters: {'num_range_data': 749, 'voxel_filter_size': 0.06314428575538655, 'optimize_every_n_nodes': 471}. Best is trial 205 with value: 0.08247601018404224.
+[1750375782.414544582] Start trial 225
+Trial 225 finished with value: 0.15904462639734118 and parameters: {'num_range_data': 849, 'voxel_filter_size': 0.1268026375816089, 'optimize_every_n_nodes': 487}. Best is trial 205 with value: 0.08247601018404224.
+[1750375831.075547934] Start trial 226
+Trial 226 finished with value: 0.4415221815606375 and parameters: {'num_range_data': 796, 'voxel_filter_size': 0.17653772692506828, 'optimize_every_n_nodes': 566}. Best is trial 205 with value: 0.08247601018404224.
+[1750375875.067434311] Start trial 227
+Trial 227 finished with value: 0.17868038077601361 and parameters: {'num_range_data': 809, 'voxel_filter_size': 0.15611484178224566, 'optimize_every_n_nodes': 507}. Best is trial 205 with value: 0.08247601018404224.
+[1750375919.997716904] Start trial 228
+Trial 228 finished with value: 0.47359863704500604 and parameters: {'num_range_data': 859, 'voxel_filter_size': 0.3066578716275641, 'optimize_every_n_nodes': 458}. Best is trial 205 with value: 0.08247601018404224.
+[1750375957.086044788] Start trial 229
+Trial 229 finished with value: 0.17019887107835754 and parameters: {'num_range_data': 785, 'voxel_filter_size': 0.10558422378032717, 'optimize_every_n_nodes': 545}. Best is trial 205 with value: 0.08247601018404224.
+[1750376008.205308676] Start trial 230
+Trial 230 finished with value: 0.2832093116834248 and parameters: {'num_range_data': 759, 'voxel_filter_size': 0.19228620983599176, 'optimize_every_n_nodes': 590}. Best is trial 205 with value: 0.08247601018404224.
+[1750376051.067834854] Start trial 231
+Trial 231 finished with value: 0.1591518552243846 and parameters: {'num_range_data': 737, 'voxel_filter_size': 0.08834668329405175, 'optimize_every_n_nodes': 423}. Best is trial 205 with value: 0.08247601018404224.
+[1750376106.232953072] Start trial 232
+Trial 232 finished with value: 0.21301367306591365 and parameters: {'num_range_data': 824, 'voxel_filter_size': 0.14030211119290448, 'optimize_every_n_nodes': 555}. Best is trial 205 with value: 0.08247601018404224.
+[1750376153.148721457] Start trial 233
+Trial 233 finished with value: 0.21867575889295282 and parameters: {'num_range_data': 715, 'voxel_filter_size': 0.23662732883610982, 'optimize_every_n_nodes': 520}. Best is trial 205 with value: 0.08247601018404224.
+[1750376194.080182076] Start trial 234
+Trial 234 finished with value: 0.4537003695275192 and parameters: {'num_range_data': 885, 'voxel_filter_size': 0.05660903447799388, 'optimize_every_n_nodes': 501}. Best is trial 205 with value: 0.08247601018404224.
+[1750376254.318923950] Start trial 235
+Trial 235 finished with value: 0.10387016974147388 and parameters: {'num_range_data': 821, 'voxel_filter_size': 0.07460224390349772, 'optimize_every_n_nodes': 521}. Best is trial 205 with value: 0.08247601018404224.
+[1750376311.254864931] Start trial 236
+Trial 236 finished with value: 0.4007888060702762 and parameters: {'num_range_data': 841, 'voxel_filter_size': 0.0760632591220856, 'optimize_every_n_nodes': 525}. Best is trial 205 with value: 0.08247601018404224.
+[1750376368.475579023] Start trial 237
+Trial 237 finished with value: 0.22253907410655013 and parameters: {'num_range_data': 809, 'voxel_filter_size': 0.12319178504699856, 'optimize_every_n_nodes': 475}. Best is trial 205 with value: 0.08247601018404224.
+[1750376418.087925434] Start trial 238
+Trial 238 finished with value: 0.26044216944826537 and parameters: {'num_range_data': 832, 'voxel_filter_size': 0.07036771845209652, 'optimize_every_n_nodes': 571}. Best is trial 205 with value: 0.08247601018404224.
+[1750376474.335206747] Start trial 239
+Trial 239 finished with value: 0.39779851654854775 and parameters: {'num_range_data': 794, 'voxel_filter_size': 0.2629627426288629, 'optimize_every_n_nodes': 491}. Best is trial 205 with value: 0.08247601018404224.
+[1750376515.015519142] Start trial 240
+Trial 240 finished with value: 0.24276050199957575 and parameters: {'num_range_data': 892, 'voxel_filter_size': 0.1089266327143817, 'optimize_every_n_nodes': 540}. Best is trial 205 with value: 0.08247601018404224.
+[1750376565.065573692] Start trial 241
+Trial 241 finished with value: 0.2602432750029612 and parameters: {'num_range_data': 801, 'voxel_filter_size': 0.09589112047364373, 'optimize_every_n_nodes': 466}. Best is trial 205 with value: 0.08247601018404224.
+[1750376618.342037678] Start trial 242
+Trial 242 finished with value: 0.16024765207148003 and parameters: {'num_range_data': 824, 'voxel_filter_size': 0.37411324404414503, 'optimize_every_n_nodes': 558}. Best is trial 205 with value: 0.08247601018404224.
+[1750376653.983959436] Start trial 243
+Trial 243 finished with value: 0.31035848770533153 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.0803354477813617, 'optimize_every_n_nodes': 591}. Best is trial 205 with value: 0.08247601018404224.
+[1750376709.352478504] Start trial 244
+Trial 244 finished with value: 0.2578974256365223 and parameters: {'num_range_data': 846, 'voxel_filter_size': 0.05289196824197594, 'optimize_every_n_nodes': 446}. Best is trial 205 with value: 0.08247601018404224.
+[1750376771.461859703] Start trial 245
+Trial 245 finished with value: 0.2169529933442816 and parameters: {'num_range_data': 820, 'voxel_filter_size': 0.08850218325413711, 'optimize_every_n_nodes': 512}. Best is trial 205 with value: 0.08247601018404224.
+[1750376826.228776693] Start trial 246
+Trial 246 finished with value: 0.12874788999770712 and parameters: {'num_range_data': 837, 'voxel_filter_size': 0.21666108224231576, 'optimize_every_n_nodes': 506}. Best is trial 205 with value: 0.08247601018404224.
+[1750376868.057485819] Start trial 247
+Trial 247 finished with value: 0.46840401526251046 and parameters: {'num_range_data': 835, 'voxel_filter_size': 0.30166958492797397, 'optimize_every_n_nodes': 480}. Best is trial 205 with value: 0.08247601018404224.
+[1750376905.951706409] Start trial 248
+Trial 248 finished with value: 0.2108248624934242 and parameters: {'num_range_data': 856, 'voxel_filter_size': 0.21713674713937, 'optimize_every_n_nodes': 502}. Best is trial 205 with value: 0.08247601018404224.
+[1750376947.106945515] Start trial 249
+Trial 249 finished with value: 0.20080669574119797 and parameters: {'num_range_data': 811, 'voxel_filter_size': 0.3267989881156394, 'optimize_every_n_nodes': 531}. Best is trial 205 with value: 0.08247601018404224.
+[1750376983.976643324] Start trial 250
+Trial 250 finished with value: 0.1585734362106407 and parameters: {'num_range_data': 803, 'voxel_filter_size': 0.2765532720510216, 'optimize_every_n_nodes': 493}. Best is trial 205 with value: 0.08247601018404224.
+[1750377023.153258085] Start trial 251
+Trial 251 finished with value: 0.1109558191579114 and parameters: {'num_range_data': 869, 'voxel_filter_size': 0.10219808910315989, 'optimize_every_n_nodes': 582}. Best is trial 205 with value: 0.08247601018404224.
+[1750377074.280334711] Start trial 252
+Trial 252 finished with value: 0.1443208896509833 and parameters: {'num_range_data': 866, 'voxel_filter_size': 0.10300637015115213, 'optimize_every_n_nodes': 580}. Best is trial 205 with value: 0.08247601018404224.
+[1750377125.277673721] Start trial 253
+Trial 253 finished with value: 0.09968034419554189 and parameters: {'num_range_data': 868, 'voxel_filter_size': 0.10623570214568122, 'optimize_every_n_nodes': 584}. Best is trial 205 with value: 0.08247601018404224.
+[1750377176.220051050] Start trial 254
+Trial 254 finished with value: 0.40057619567958724 and parameters: {'num_range_data': 877, 'voxel_filter_size': 0.07369307460550376, 'optimize_every_n_nodes': 600}. Best is trial 205 with value: 0.08247601018404224.
+[1750377232.432166338] Start trial 255
+Trial 255 finished with value: 0.25320265106458856 and parameters: {'num_range_data': 889, 'voxel_filter_size': 0.09388544467210089, 'optimize_every_n_nodes': 584}. Best is trial 205 with value: 0.08247601018404224.
+[1750377285.296601772] Start trial 256
+Trial 256 finished with value: 0.12164767993452755 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.1958064993367844, 'optimize_every_n_nodes': 570}. Best is trial 205 with value: 0.08247601018404224.
+[1750377327.011811733] Start trial 257
+Trial 257 finished with value: 0.20795822181766213 and parameters: {'num_range_data': 899, 'voxel_filter_size': 0.2002318810185616, 'optimize_every_n_nodes': 566}. Best is trial 205 with value: 0.08247601018404224.
+[1750377369.077570200] Start trial 258
+Trial 258 finished with value: 0.2701418807201728 and parameters: {'num_range_data': 871, 'voxel_filter_size': 0.2249961900942366, 'optimize_every_n_nodes': 547}. Best is trial 205 with value: 0.08247601018404224.
+[1750377409.971302748] Start trial 259
+Trial 259 finished with value: 0.17112874018504717 and parameters: {'num_range_data': 893, 'voxel_filter_size': 0.1906714265042586, 'optimize_every_n_nodes': 565}. Best is trial 205 with value: 0.08247601018404224.
+[1750377452.078020811] Start trial 260
+Trial 260 finished with value: 0.24048897362111737 and parameters: {'num_range_data': 877, 'voxel_filter_size': 0.2361474308581359, 'optimize_every_n_nodes': 589}. Best is trial 205 with value: 0.08247601018404224.
+[1750377492.073101521] Start trial 261
+Trial 261 finished with value: 0.2794611207193712 and parameters: {'num_range_data': 881, 'voxel_filter_size': 0.11170454185548355, 'optimize_every_n_nodes': 573}. Best is trial 205 with value: 0.08247601018404224.
+[1750377541.957504749] Start trial 262
+Trial 262 finished with value: 0.31654325571702535 and parameters: {'num_range_data': 864, 'voxel_filter_size': 0.3963250569544659, 'optimize_every_n_nodes': 596}. Best is trial 205 with value: 0.08247601018404224.
+[1750377576.882824421] Start trial 263
+Trial 263 finished with value: 0.20913909413899381 and parameters: {'num_range_data': 838, 'voxel_filter_size': 0.2153779874663201, 'optimize_every_n_nodes': 574}. Best is trial 205 with value: 0.08247601018404224.
+[1750377618.014653444] Start trial 264
+Trial 264 finished with value: 0.2188850500225245 and parameters: {'num_range_data': 887, 'voxel_filter_size': 0.062337435923458154, 'optimize_every_n_nodes': 463}. Best is trial 205 with value: 0.08247601018404224.
+[1750377676.301904202] Start trial 265
+Trial 265 finished with value: 0.1291461918891575 and parameters: {'num_range_data': 899, 'voxel_filter_size': 0.10019667466856232, 'optimize_every_n_nodes': 550}. Best is trial 205 with value: 0.08247601018404224.
+[1750377729.330194235] Start trial 266
+Trial 266 finished with value: 0.13069926314422517 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.10075159412560111, 'optimize_every_n_nodes': 549}. Best is trial 205 with value: 0.08247601018404224.
+[1750377780.295486212] Start trial 267
+Trial 267 finished with value: 0.21170973443753596 and parameters: {'num_range_data': 849, 'voxel_filter_size': 0.0811976874826993, 'optimize_every_n_nodes': 551}. Best is trial 205 with value: 0.08247601018404224.
+[1750377835.328080416] Start trial 268
+Trial 268 finished with value: 0.27271617101439616 and parameters: {'num_range_data': 829, 'voxel_filter_size': 0.10202681675128372, 'optimize_every_n_nodes': 536}. Best is trial 205 with value: 0.08247601018404224.
+[1750377887.180830002] Start trial 269
+Trial 269 finished with value: 0.2985267974047812 and parameters: {'num_range_data': 894, 'voxel_filter_size': 0.13280822335768547, 'optimize_every_n_nodes': 562}. Best is trial 205 with value: 0.08247601018404224.
+[1750377934.104805231] Start trial 270
+Trial 270 finished with value: 0.6307969109506669 and parameters: {'num_range_data': 856, 'voxel_filter_size': 0.1516891410199899, 'optimize_every_n_nodes': 542}. Best is trial 205 with value: 0.08247601018404224.
+[1750377979.230029583] Start trial 271
+Trial 271 finished with value: 0.1526239023480962 and parameters: {'num_range_data': 845, 'voxel_filter_size': 0.11061969648244413, 'optimize_every_n_nodes': 213}. Best is trial 205 with value: 0.08247601018404224.
+[1750378029.262232304] Start trial 272
+Trial 272 finished with value: 0.2638391557501432 and parameters: {'num_range_data': 883, 'voxel_filter_size': 0.09899983947355931, 'optimize_every_n_nodes': 552}. Best is trial 205 with value: 0.08247601018404224.
+[1750378080.686917067] Start trial 273
+Trial 273 finished with value: 0.355378549431288 and parameters: {'num_range_data': 826, 'voxel_filter_size': 0.1227732714425091, 'optimize_every_n_nodes': 521}. Best is trial 205 with value: 0.08247601018404224.
+[1750378129.060892820] Start trial 274
+Trial 274 finished with value: 0.5761614749149155 and parameters: {'num_range_data': 869, 'voxel_filter_size': 0.08916938555338533, 'optimize_every_n_nodes': 557}. Best is trial 205 with value: 0.08247601018404224.
+[1750378182.167002201] Start trial 275
+Trial 275 finished with value: 0.23479675877622014 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.0679544656964344, 'optimize_every_n_nodes': 530}. Best is trial 205 with value: 0.08247601018404224.
+[1750378239.461766720] Start trial 276
+Trial 276 finished with value: 0.27247893830456554 and parameters: {'num_range_data': 789, 'voxel_filter_size': 0.1189821964525756, 'optimize_every_n_nodes': 454}. Best is trial 205 with value: 0.08247601018404224.
+[1750378289.289528131] Start trial 277
+Trial 277 finished with value: 0.08194213943939739 and parameters: {'num_range_data': 837, 'voxel_filter_size': 0.0797403206545747, 'optimize_every_n_nodes': 574}. Best is trial 277 with value: 0.08194213943939739.
+[1750378344.320913553] Start trial 278
+Trial 278 finished with value: 0.2999143201832047 and parameters: {'num_range_data': 861, 'voxel_filter_size': 0.08024745158061683, 'optimize_every_n_nodes': 578}. Best is trial 277 with value: 0.08194213943939739.
+[1750378399.424619198] Start trial 279
+Trial 279 finished with value: 0.15205797456689274 and parameters: {'num_range_data': 651, 'voxel_filter_size': 0.062013182223895666, 'optimize_every_n_nodes': 423}. Best is trial 277 with value: 0.08194213943939739.
+[1750378461.484678030] Start trial 280
+Trial 280 finished with value: 0.3312359811824027 and parameters: {'num_range_data': 840, 'voxel_filter_size': 0.07197936657426898, 'optimize_every_n_nodes': 571}. Best is trial 277 with value: 0.08194213943939739.
+[1750378519.457415581] Start trial 281
+Trial 281 finished with value: 0.13152934987324796 and parameters: {'num_range_data': 834, 'voxel_filter_size': 0.08458293083564841, 'optimize_every_n_nodes': 584}. Best is trial 277 with value: 0.08194213943939739.
+[1750378575.184106588] Start trial 282
+Trial 282 finished with value: 0.24879627149044709 and parameters: {'num_range_data': 851, 'voxel_filter_size': 0.05600292804726844, 'optimize_every_n_nodes': 588}. Best is trial 277 with value: 0.08194213943939739.
+[1750378636.907916069] Start trial 283
+Trial 283 finished with value: 0.18797497782365144 and parameters: {'num_range_data': 834, 'voxel_filter_size': 0.08209391881234347, 'optimize_every_n_nodes': 584}. Best is trial 277 with value: 0.08194213943939739.
+[1750378693.363570929] Start trial 284
+Trial 284 finished with value: 0.20857289919131222 and parameters: {'num_range_data': 871, 'voxel_filter_size': 0.05011275654886619, 'optimize_every_n_nodes': 393}. Best is trial 277 with value: 0.08194213943939739.
+[1750378756.441400766] Start trial 285
+Trial 285 finished with value: 0.40348831994756607 and parameters: {'num_range_data': 844, 'voxel_filter_size': 0.08953162856286187, 'optimize_every_n_nodes': 352}. Best is trial 277 with value: 0.08194213943939739.
+[1750378810.334865332] Start trial 286
+Trial 286 finished with value: 0.12530412063891447 and parameters: {'num_range_data': 816, 'voxel_filter_size': 0.06720675604999594, 'optimize_every_n_nodes': 560}. Best is trial 277 with value: 0.08194213943939739.
+[1750378868.625985384] Start trial 287
+Trial 287 finished with value: 0.3178990498665494 and parameters: {'num_range_data': 818, 'voxel_filter_size': 0.06752132576237374, 'optimize_every_n_nodes': 563}. Best is trial 277 with value: 0.08194213943939739.
+[1750378927.310068369] Start trial 288
+Trial 288 finished with value: 0.22109248738384982 and parameters: {'num_range_data': 812, 'voxel_filter_size': 0.07815433251275562, 'optimize_every_n_nodes': 546}. Best is trial 277 with value: 0.08194213943939739.
+[1750378983.248558044] Start trial 289
+Trial 289 finished with value: 0.2705948574413583 and parameters: {'num_range_data': 829, 'voxel_filter_size': 0.09704475332933088, 'optimize_every_n_nodes': 574}. Best is trial 277 with value: 0.08194213943939739.
+[1750379036.227201462] Start trial 290
+Trial 290 finished with value: 0.17013037236647666 and parameters: {'num_range_data': 835, 'voxel_filter_size': 0.058541144883436175, 'optimize_every_n_nodes': 596}. Best is trial 277 with value: 0.08194213943939739.
+[1750379096.365723848] Start trial 291
+Trial 291 finished with value: 0.21488907924086548 and parameters: {'num_range_data': 888, 'voxel_filter_size': 0.08626275840760794, 'optimize_every_n_nodes': 558}. Best is trial 277 with value: 0.08194213943939739.
+[1750379151.371389389] Start trial 292
+Trial 292 finished with value: 0.1421661369955573 and parameters: {'num_range_data': 819, 'voxel_filter_size': 0.10406526748547967, 'optimize_every_n_nodes': 568}. Best is trial 277 with value: 0.08194213943939739.
+[1750379202.264407396] Start trial 293
+Trial 293 finished with value: 0.2897294636180907 and parameters: {'num_range_data': 878, 'voxel_filter_size': 0.07228431565654092, 'optimize_every_n_nodes': 588}. Best is trial 277 with value: 0.08194213943939739.
+[1750379258.835519314] Start trial 294
+Trial 294 finished with value: 0.21449921557011783 and parameters: {'num_range_data': 856, 'voxel_filter_size': 0.18299353171514476, 'optimize_every_n_nodes': 576}. Best is trial 277 with value: 0.08194213943939739.
+[1750379303.232973337] Start trial 295
+Trial 295 finished with value: 0.24015067143017205 and parameters: {'num_range_data': 823, 'voxel_filter_size': 0.09357684992312856, 'optimize_every_n_nodes': 540}. Best is trial 277 with value: 0.08194213943939739.
+[1750379356.206746578] Start trial 296
+Trial 296 finished with value: 0.21440712855895472 and parameters: {'num_range_data': 808, 'voxel_filter_size': 0.06499519298512157, 'optimize_every_n_nodes': 580}. Best is trial 277 with value: 0.08194213943939739.
+[1750379414.308203220] Start trial 297
+Trial 297 finished with value: 0.2307946105285394 and parameters: {'num_range_data': 893, 'voxel_filter_size': 0.20361904810691617, 'optimize_every_n_nodes': 553}. Best is trial 277 with value: 0.08194213943939739.
+[1750379457.122760296] Start trial 298
+Trial 298 finished with value: 0.09273455915326625 and parameters: {'num_range_data': 814, 'voxel_filter_size': 0.08385682067403208, 'optimize_every_n_nodes': 564}. Best is trial 277 with value: 0.08194213943939739.
+[1750379512.456598520] Start trial 299
+Trial 299 finished with value: 0.16261220068159826 and parameters: {'num_range_data': 817, 'voxel_filter_size': 0.08070933681859563, 'optimize_every_n_nodes': 566}. Best is trial 277 with value: 0.08194213943939739.
+[1750379567.302147865] Start trial 300
+Trial 300 finished with value: 0.11598198104539037 and parameters: {'num_range_data': 797, 'voxel_filter_size': 0.07446904639685857, 'optimize_every_n_nodes': 600}. Best is trial 277 with value: 0.08194213943939739.
+[1750379623.501161098] Start trial 301
+Trial 301 finished with value: 0.17749140468945182 and parameters: {'num_range_data': 804, 'voxel_filter_size': 0.07419188769849219, 'optimize_every_n_nodes': 592}. Best is trial 277 with value: 0.08194213943939739.
+[1750379681.349976063] Start trial 302
+Trial 302 finished with value: 0.364722955862817 and parameters: {'num_range_data': 799, 'voxel_filter_size': 0.08612105828004887, 'optimize_every_n_nodes': 585}. Best is trial 277 with value: 0.08194213943939739.
+[1750379736.350373983] Start trial 303
+Trial 303 finished with value: 0.44378198231569044 and parameters: {'num_range_data': 780, 'voxel_filter_size': 0.10027532734921236, 'optimize_every_n_nodes': 600}. Best is trial 277 with value: 0.08194213943939739.
+[1750379789.195070982] Start trial 304
+Trial 304 finished with value: 0.23402313927312268 and parameters: {'num_range_data': 829, 'voxel_filter_size': 0.09285854616251187, 'optimize_every_n_nodes': 570}. Best is trial 277 with value: 0.08194213943939739.
+[1750379842.316184998] Start trial 305
+Trial 305 finished with value: 0.41918384785606255 and parameters: {'num_range_data': 813, 'voxel_filter_size': 0.10642858897851466, 'optimize_every_n_nodes': 559}. Best is trial 277 with value: 0.08194213943939739.
+[1750379893.298086643] Start trial 306
+Trial 306 finished with value: 0.26045009859584556 and parameters: {'num_range_data': 793, 'voxel_filter_size': 0.07595636275669923, 'optimize_every_n_nodes': 583}. Best is trial 277 with value: 0.08194213943939739.
+[1750379949.532320499] Start trial 307
+Trial 307 finished with value: 0.3051696548185457 and parameters: {'num_range_data': 837, 'voxel_filter_size': 0.0674652533428729, 'optimize_every_n_nodes': 576}. Best is trial 277 with value: 0.08194213943939739.
+[1750380007.528191090] Start trial 308
+Trial 308 finished with value: 0.2155224822147981 and parameters: {'num_range_data': 825, 'voxel_filter_size': 0.08608102085056862, 'optimize_every_n_nodes': 594}. Best is trial 277 with value: 0.08194213943939739.
+[1750380063.322870970] Start trial 309
+Trial 309 finished with value: 0.3119063913851646 and parameters: {'num_range_data': 810, 'voxel_filter_size': 0.06047773368086287, 'optimize_every_n_nodes': 261}. Best is trial 277 with value: 0.08194213943939739.
+[1750380123.513004065] Start trial 310
+Trial 310 finished with value: 0.18666973431287207 and parameters: {'num_range_data': 771, 'voxel_filter_size': 0.09830033585487367, 'optimize_every_n_nodes': 550}. Best is trial 277 with value: 0.08194213943939739.
+[1750380177.323931217] Start trial 311
+Trial 311 finished with value: 0.2615271529649953 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.08002036965877707, 'optimize_every_n_nodes': 566}. Best is trial 277 with value: 0.08194213943939739.
+[1750380231.344483376] Start trial 312
+Trial 312 finished with value: 0.1595665546763628 and parameters: {'num_range_data': 832, 'voxel_filter_size': 0.09048661293979912, 'optimize_every_n_nodes': 409}. Best is trial 277 with value: 0.08194213943939739.
+[1750380285.139827728] Start trial 313
+Trial 313 finished with value: 0.2562394528361551 and parameters: {'num_range_data': 820, 'voxel_filter_size': 0.11332666371522526, 'optimize_every_n_nodes': 582}. Best is trial 277 with value: 0.08194213943939739.
+[1750380335.039446592] Start trial 314
+Trial 314 finished with value: 0.21107343671024947 and parameters: {'num_range_data': 884, 'voxel_filter_size': 0.0716007106911909, 'optimize_every_n_nodes': 562}. Best is trial 277 with value: 0.08194213943939739.
+[1750380391.454105616] Start trial 315
+Trial 315 finished with value: 0.1255751116409303 and parameters: {'num_range_data': 804, 'voxel_filter_size': 0.1076725360310776, 'optimize_every_n_nodes': 543}. Best is trial 277 with value: 0.08194213943939739.
+[1750380443.259217739] Start trial 316
+Trial 316 finished with value: 0.13716511048213606 and parameters: {'num_range_data': 795, 'voxel_filter_size': 0.100128480765151, 'optimize_every_n_nodes': 538}. Best is trial 277 with value: 0.08194213943939739.
+[1750380495.229976892] Start trial 317
+Trial 317 finished with value: 0.2513891091547797 and parameters: {'num_range_data': 813, 'voxel_filter_size': 0.1072634761939734, 'optimize_every_n_nodes': 554}. Best is trial 277 with value: 0.08194213943939739.
+[1750380546.208661318] Start trial 318
+Trial 318 finished with value: 0.23087794659013294 and parameters: {'num_range_data': 808, 'voxel_filter_size': 0.12803261414713243, 'optimize_every_n_nodes': 516}. Best is trial 277 with value: 0.08194213943939739.
+[1750380594.089761734] Start trial 319
+Trial 319 finished with value: 0.10297294990427139 and parameters: {'num_range_data': 799, 'voxel_filter_size': 0.08327644253243485, 'optimize_every_n_nodes': 544}. Best is trial 277 with value: 0.08194213943939739.
+[1750380649.382100821] Start trial 320
+Trial 320 finished with value: 0.14823334770522112 and parameters: {'num_range_data': 801, 'voxel_filter_size': 0.09336583834917322, 'optimize_every_n_nodes': 547}. Best is trial 277 with value: 0.08194213943939739.
+[1750380702.317218542] Start trial 321
+Trial 321 finished with value: 0.3131104988813356 and parameters: {'num_range_data': 789, 'voxel_filter_size': 0.0553840057237059, 'optimize_every_n_nodes': 526}. Best is trial 277 with value: 0.08194213943939739.
+[1750380763.601848841] Start trial 322
+Trial 322 finished with value: 0.23357081948773323 and parameters: {'num_range_data': 782, 'voxel_filter_size': 0.07640498490965708, 'optimize_every_n_nodes': 537}. Best is trial 277 with value: 0.08194213943939739.
+[1750380821.379241705] Start trial 323
+Trial 323 finished with value: 0.17612229797508822 and parameters: {'num_range_data': 801, 'voxel_filter_size': 0.06288195555321668, 'optimize_every_n_nodes': 543}. Best is trial 277 with value: 0.08194213943939739.
+[1750380881.407897949] Start trial 324
+Trial 324 finished with value: 0.2968607499408161 and parameters: {'num_range_data': 806, 'voxel_filter_size': 0.11653290351660928, 'optimize_every_n_nodes': 506}. Best is trial 277 with value: 0.08194213943939739.
+[1750380932.187139034] Start trial 325
+Trial 325 finished with value: 0.405466653930033 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.10749106585171973, 'optimize_every_n_nodes': 573}. Best is trial 277 with value: 0.08194213943939739.
+[1750380982.044865608] Start trial 326
+Trial 326 finished with value: 0.5741527521707318 and parameters: {'num_range_data': 824, 'voxel_filter_size': 0.16612049364614004, 'optimize_every_n_nodes': 559}. Best is trial 277 with value: 0.08194213943939739.
+[1750381026.114761114] Start trial 327
+Trial 327 finished with value: 0.2755131723355203 and parameters: {'num_range_data': 890, 'voxel_filter_size': 0.08375827056048905, 'optimize_every_n_nodes': 529}. Best is trial 277 with value: 0.08194213943939739.
+[1750381080.345366240] Start trial 328
+Trial 328 finished with value: 0.17230375087286123 and parameters: {'num_range_data': 896, 'voxel_filter_size': 0.09402761789052944, 'optimize_every_n_nodes': 549}. Best is trial 277 with value: 0.08194213943939739.
+[1750381132.212241411] Start trial 329
+Trial 329 finished with value: 0.19835589461674835 and parameters: {'num_range_data': 796, 'voxel_filter_size': 0.24347127177257902, 'optimize_every_n_nodes': 562}. Best is trial 277 with value: 0.08194213943939739.
+[1750381172.035378456] Start trial 330
+Trial 330 finished with value: 0.2059373055303799 and parameters: {'num_range_data': 789, 'voxel_filter_size': 0.10060549317569106, 'optimize_every_n_nodes': 514}. Best is trial 277 with value: 0.08194213943939739.
+[1750381224.256270409] Start trial 331
+Trial 331 finished with value: 0.164930021947737 and parameters: {'num_range_data': 843, 'voxel_filter_size': 0.06679745666828239, 'optimize_every_n_nodes': 359}. Best is trial 277 with value: 0.08194213943939739.
+[1750381281.451528549] Start trial 332
+Trial 332 finished with value: 0.19230714235932167 and parameters: {'num_range_data': 814, 'voxel_filter_size': 0.21819071982398752, 'optimize_every_n_nodes': 431}. Best is trial 277 with value: 0.08194213943939739.
+[1750381324.073342323] Start trial 333
+Trial 333 finished with value: 0.32688679688873845 and parameters: {'num_range_data': 772, 'voxel_filter_size': 0.07707740939453452, 'optimize_every_n_nodes': 572}. Best is trial 277 with value: 0.08194213943939739.
+[1750381380.338621855] Start trial 334
+Trial 334 finished with value: 0.19275881891276195 and parameters: {'num_range_data': 805, 'voxel_filter_size': 0.08613867784170942, 'optimize_every_n_nodes': 589}. Best is trial 277 with value: 0.08194213943939739.
+[1750381435.140118837] Start trial 335
+Trial 335 finished with value: 0.18170889353933167 and parameters: {'num_range_data': 676, 'voxel_filter_size': 0.13674177713445476, 'optimize_every_n_nodes': 534}. Best is trial 277 with value: 0.08194213943939739.
+[1750381483.060788155] Start trial 336
+Trial 336 finished with value: 0.1562217359664388 and parameters: {'num_range_data': 821, 'voxel_filter_size': 0.22911493961910945, 'optimize_every_n_nodes': 547}. Best is trial 277 with value: 0.08194213943939739.
+[1750381524.140258312] Start trial 337
+Trial 337 finished with value: 0.37684592120387667 and parameters: {'num_range_data': 827, 'voxel_filter_size': 0.12046728010986454, 'optimize_every_n_nodes': 578}. Best is trial 277 with value: 0.08194213943939739.
+[1750381572.131165743] Start trial 338
+Trial 338 finished with value: 0.49099977602650435 and parameters: {'num_range_data': 604, 'voxel_filter_size': 0.09185795013655011, 'optimize_every_n_nodes': 599}. Best is trial 277 with value: 0.08194213943939739.
+[1750381626.214333773] Start trial 339
+Trial 339 finished with value: 0.43554895350571077 and parameters: {'num_range_data': 876, 'voxel_filter_size': 0.05318579731443754, 'optimize_every_n_nodes': 558}. Best is trial 277 with value: 0.08194213943939739.
+[1750381687.873961449] Start trial 340
+Trial 340 finished with value: 0.18839406299297978 and parameters: {'num_range_data': 866, 'voxel_filter_size': 0.07227743979291042, 'optimize_every_n_nodes': 570}. Best is trial 277 with value: 0.08194213943939739.
+[1750381746.410613537] Start trial 341
+Trial 341 finished with value: 0.3307361584889311 and parameters: {'num_range_data': 849, 'voxel_filter_size': 0.11223990972781206, 'optimize_every_n_nodes': 592}. Best is trial 277 with value: 0.08194213943939739.
+[1750381797.245151997] Start trial 342
+Trial 342 finished with value: 0.242962103448139 and parameters: {'num_range_data': 818, 'voxel_filter_size': 0.07995093705415614, 'optimize_every_n_nodes': 523}. Best is trial 277 with value: 0.08194213943939739.
+[1750381852.286361694] Start trial 343
+Trial 343 finished with value: 0.4260714091228998 and parameters: {'num_range_data': 882, 'voxel_filter_size': 0.09577373834601119, 'optimize_every_n_nodes': 500}. Best is trial 277 with value: 0.08194213943939739.
+[1750381905.307158470] Start trial 344
+Trial 344 finished with value: 0.43923141897636503 and parameters: {'num_range_data': 798, 'voxel_filter_size': 0.20890258734406736, 'optimize_every_n_nodes': 553}. Best is trial 277 with value: 0.08194213943939739.
+[1750381947.067504644] Start trial 345
+Trial 345 finished with value: 0.16950148234156986 and parameters: {'num_range_data': 893, 'voxel_filter_size': 0.10416271447665429, 'optimize_every_n_nodes': 314}. Best is trial 277 with value: 0.08194213943939739.
+[1750381998.380038500] Start trial 346
+Trial 346 finished with value: 0.37714551703817256 and parameters: {'num_range_data': 837, 'voxel_filter_size': 0.06010236048511331, 'optimize_every_n_nodes': 540}. Best is trial 277 with value: 0.08194213943939739.
+[1750382058.882715940] Start trial 347
+Trial 347 finished with value: 0.49707703997452274 and parameters: {'num_range_data': 900, 'voxel_filter_size': 0.05001382347041828, 'optimize_every_n_nodes': 566}. Best is trial 277 with value: 0.08194213943939739.
+[1750382122.393670082] Start trial 348
+Trial 348 finished with value: 0.30240198506931726 and parameters: {'num_range_data': 829, 'voxel_filter_size': 0.06925099043261634, 'optimize_every_n_nodes': 583}. Best is trial 277 with value: 0.08194213943939739.
+[1750382180.475317001] Start trial 349
+Trial 349 finished with value: 0.2754364423756675 and parameters: {'num_range_data': 810, 'voxel_filter_size': 0.08728085719674389, 'optimize_every_n_nodes': 388}. Best is trial 277 with value: 0.08194213943939739.
+[1750382235.393532515] Start trial 350
+Trial 350 finished with value: 0.29951210928093064 and parameters: {'num_range_data': 860, 'voxel_filter_size': 0.1028043776506906, 'optimize_every_n_nodes': 577}. Best is trial 277 with value: 0.08194213943939739.
+[1750382286.263109446] Start trial 351
+Trial 351 finished with value: 0.08779670714432158 and parameters: {'num_range_data': 785, 'voxel_filter_size': 0.08106567810687279, 'optimize_every_n_nodes': 556}. Best is trial 277 with value: 0.08194213943939739.
+[1750382341.153121948] Start trial 352
+Trial 352 finished with value: 0.503283328746927 and parameters: {'num_range_data': 757, 'voxel_filter_size': 0.08404735570906195, 'optimize_every_n_nodes': 556}. Best is trial 277 with value: 0.08194213943939739.
+[1750382396.276991606] Start trial 353
+Trial 353 finished with value: 0.2396293084691001 and parameters: {'num_range_data': 786, 'voxel_filter_size': 0.0921111016545991, 'optimize_every_n_nodes': 543}. Best is trial 277 with value: 0.08194213943939739.
+[1750382449.334618807] Start trial 354
+Trial 354 finished with value: 0.1849593769607814 and parameters: {'num_range_data': 794, 'voxel_filter_size': 0.07513434829509942, 'optimize_every_n_nodes': 565}. Best is trial 277 with value: 0.08194213943939739.
+[1750382505.421801805] Start trial 355
+Trial 355 finished with value: 0.6412183522214427 and parameters: {'num_range_data': 740, 'voxel_filter_size': 0.06595511247861083, 'optimize_every_n_nodes': 571}. Best is trial 277 with value: 0.08194213943939739.
+[1750382565.348337650] Start trial 356
+Trial 356 finished with value: 0.31346364689492306 and parameters: {'num_range_data': 805, 'voxel_filter_size': 0.07953601439040221, 'optimize_every_n_nodes': 592}. Best is trial 277 with value: 0.08194213943939739.
+[1750382621.347955227] Start trial 357
+Trial 357 finished with value: 0.49478910369197554 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.26425045890966675, 'optimize_every_n_nodes': 439}. Best is trial 277 with value: 0.08194213943939739.
+[1750382662.148186922] Start trial 358
+Trial 358 finished with value: 0.1661506620160646 and parameters: {'num_range_data': 802, 'voxel_filter_size': 0.09681857036897198, 'optimize_every_n_nodes': 533}. Best is trial 277 with value: 0.08194213943939739.
+[1750382714.260226965] Start trial 359
+Trial 359 finished with value: 0.34852930339548793 and parameters: {'num_range_data': 778, 'voxel_filter_size': 0.1104123762094798, 'optimize_every_n_nodes': 555}. Best is trial 277 with value: 0.08194213943939739.
+[1750382765.123279333] Start trial 360
+Trial 360 finished with value: 0.32995529230770865 and parameters: {'num_range_data': 823, 'voxel_filter_size': 0.0885922960896373, 'optimize_every_n_nodes': 578}. Best is trial 277 with value: 0.08194213943939739.
+[1750382818.276269197] Start trial 361
+Trial 361 finished with value: 0.09129665950602925 and parameters: {'num_range_data': 791, 'voxel_filter_size': 0.07193631249674458, 'optimize_every_n_nodes': 564}. Best is trial 277 with value: 0.08194213943939739.
+[1750382875.375243187] Start trial 362
+Trial 362 finished with value: 0.18018921460900109 and parameters: {'num_range_data': 799, 'voxel_filter_size': 0.07261388753071137, 'optimize_every_n_nodes': 567}. Best is trial 277 with value: 0.08194213943939739.
+[1750382933.461168528] Start trial 363
+Trial 363 finished with value: 0.5321022979660124 and parameters: {'num_range_data': 792, 'voxel_filter_size': 0.0633769900307576, 'optimize_every_n_nodes': 545}. Best is trial 277 with value: 0.08194213943939739.
+[1750382993.420987368] Start trial 364
+Trial 364 finished with value: 0.12653042609790813 and parameters: {'num_range_data': 807, 'voxel_filter_size': 0.08111596094916161, 'optimize_every_n_nodes': 561}. Best is trial 277 with value: 0.08194213943939739.
+[1750383050.440459967] Start trial 365
+Trial 365 finished with value: 0.1462396285988957 and parameters: {'num_range_data': 808, 'voxel_filter_size': 0.08064723184400491, 'optimize_every_n_nodes': 581}. Best is trial 277 with value: 0.08194213943939739.
+[1750383106.346103907] Start trial 366
+Trial 366 finished with value: 0.14104722105576079 and parameters: {'num_range_data': 781, 'voxel_filter_size': 0.0716773131817804, 'optimize_every_n_nodes': 560}. Best is trial 277 with value: 0.08194213943939739.
+[1750383164.277120590] Start trial 367
+Trial 367 finished with value: 0.15769998824098522 and parameters: {'num_range_data': 765, 'voxel_filter_size': 0.08243482062347618, 'optimize_every_n_nodes': 571}. Best is trial 277 with value: 0.08194213943939739.
+[1750383220.288585186] Start trial 368
+Trial 368 finished with value: 0.24196303959232318 and parameters: {'num_range_data': 812, 'voxel_filter_size': 0.0599774217057534, 'optimize_every_n_nodes': 600}. Best is trial 277 with value: 0.08194213943939739.
+[1750383280.391676664] Start trial 369
+Trial 369 finished with value: 0.3381178285091933 and parameters: {'num_range_data': 787, 'voxel_filter_size': 0.06728746947357798, 'optimize_every_n_nodes': 588}. Best is trial 277 with value: 0.08194213943939739.
+[1750383339.391647577] Start trial 370
+Trial 370 finished with value: 0.30657833014992875 and parameters: {'num_range_data': 794, 'voxel_filter_size': 0.08895406494381966, 'optimize_every_n_nodes': 559}. Best is trial 277 with value: 0.08194213943939739.
+[1750383395.208081245] Start trial 371
+Trial 371 finished with value: 0.07742656697986065 and parameters: {'num_range_data': 802, 'voxel_filter_size': 0.07719200531087284, 'optimize_every_n_nodes': 575}. Best is trial 371 with value: 0.07742656697986065.
+[1750383451.385657549] Start trial 372
+Trial 372 finished with value: 0.1811984245673117 and parameters: {'num_range_data': 802, 'voxel_filter_size': 0.07654953439026098, 'optimize_every_n_nodes': 577}. Best is trial 371 with value: 0.07742656697986065.
+[1750383508.321049452] Start trial 373
+Trial 373 finished with value: 0.13789238429909412 and parameters: {'num_range_data': 807, 'voxel_filter_size': 0.05819156452160851, 'optimize_every_n_nodes': 586}. Best is trial 371 with value: 0.07742656697986065.
+[1750383570.497006416] Start trial 374
+Trial 374 finished with value: 0.7071166806122803 and parameters: {'num_range_data': 818, 'voxel_filter_size': 0.07050493051424674, 'optimize_every_n_nodes': 565}. Best is trial 371 with value: 0.07742656697986065.
+[1750383629.406353474] Start trial 375
+Trial 375 finished with value: 0.22152286249653647 and parameters: {'num_range_data': 799, 'voxel_filter_size': 0.07977968442436315, 'optimize_every_n_nodes': 591}. Best is trial 371 with value: 0.07742656697986065.
+[1750383685.505919695] Start trial 376
+Trial 376 finished with value: 0.39708014552169113 and parameters: {'num_range_data': 811, 'voxel_filter_size': 0.18010700556986206, 'optimize_every_n_nodes': 575}. Best is trial 371 with value: 0.07742656697986065.
+[1750383730.118803263] Start trial 377
+Trial 377 finished with value: 0.3628453918887725 and parameters: {'num_range_data': 792, 'voxel_filter_size': 0.08575230773234832, 'optimize_every_n_nodes': 581}. Best is trial 371 with value: 0.07742656697986065.
+[1750383784.257160425] Start trial 378
+Trial 378 finished with value: 0.19434069197201032 and parameters: {'num_range_data': 821, 'voxel_filter_size': 0.06460024249881552, 'optimize_every_n_nodes': 569}. Best is trial 371 with value: 0.07742656697986065.
+[1750383842.807831764] Start trial 379
+Trial 379 finished with value: 0.43966657150462896 and parameters: {'num_range_data': 827, 'voxel_filter_size': 0.07484431057845173, 'optimize_every_n_nodes': 477}. Best is trial 371 with value: 0.07742656697986065.
+[1750383901.092112541] Start trial 380
+Trial 380 finished with value: 0.3554865023747932 and parameters: {'num_range_data': 787, 'voxel_filter_size': 0.09047068321730681, 'optimize_every_n_nodes': 560}. Best is trial 371 with value: 0.07742656697986065.
+[1750383956.342141151] Start trial 381
+Trial 381 finished with value: 0.4610749300878481 and parameters: {'num_range_data': 806, 'voxel_filter_size': 0.08076127586736032, 'optimize_every_n_nodes': 600}. Best is trial 371 with value: 0.07742656697986065.
+[1750384012.323806286] Start trial 382
+Trial 382 finished with value: 0.24088227858855307 and parameters: {'num_range_data': 717, 'voxel_filter_size': 0.05918977633053087, 'optimize_every_n_nodes': 550}. Best is trial 371 with value: 0.07742656697986065.
+[1750384073.872302055] Start trial 383
+Trial 383 finished with value: 0.5218869184083061 and parameters: {'num_range_data': 816, 'voxel_filter_size': 0.19516903261482835, 'optimize_every_n_nodes': 486}. Best is trial 371 with value: 0.07742656697986065.
+[1750384118.127090693] Start trial 384
+Trial 384 finished with value: 0.579044055959271 and parameters: {'num_range_data': 803, 'voxel_filter_size': 0.0934401402671445, 'optimize_every_n_nodes': 586}. Best is trial 371 with value: 0.07742656697986065.
+[1750384171.098112345] Start trial 385
+Trial 385 finished with value: 0.18833780259362057 and parameters: {'num_range_data': 839, 'voxel_filter_size': 0.06870431549058113, 'optimize_every_n_nodes': 569}. Best is trial 371 with value: 0.07742656697986065.
+[1750384228.476466179] Start trial 386
+Trial 386 finished with value: 0.13600731597878918 and parameters: {'num_range_data': 830, 'voxel_filter_size': 0.05075590752111363, 'optimize_every_n_nodes': 536}. Best is trial 371 with value: 0.07742656697986065.
+[1750384291.928390503] Start trial 387
+Trial 387 finished with value: 0.1872532363905724 and parameters: {'num_range_data': 796, 'voxel_filter_size': 0.23594486250548602, 'optimize_every_n_nodes': 407}. Best is trial 371 with value: 0.07742656697986065.
+[1750384334.172675133] Start trial 388
+Trial 388 finished with value: 0.11979001596241488 and parameters: {'num_range_data': 811, 'voxel_filter_size': 0.0745372213277804, 'optimize_every_n_nodes': 517}. Best is trial 371 with value: 0.07742656697986065.
+[1750384390.398993492] Start trial 389
+Trial 389 finished with value: 0.13435279127088282 and parameters: {'num_range_data': 809, 'voxel_filter_size': 0.15768809288261076, 'optimize_every_n_nodes': 519}. Best is trial 371 with value: 0.07742656697986065.
+[1750384436.055214167] Start trial 390
+Trial 390 finished with value: 0.13382889901654543 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.07517211764446585, 'optimize_every_n_nodes': 578}. Best is trial 371 with value: 0.07742656697986065.
+[1750384492.340406418] Start trial 391
+Trial 391 finished with value: 0.1500423207045047 and parameters: {'num_range_data': 821, 'voxel_filter_size': 0.08340445834353849, 'optimize_every_n_nodes': 554}. Best is trial 371 with value: 0.07742656697986065.
+[1750384547.330680609] Start trial 392
+Trial 392 finished with value: 0.2510239769843552 and parameters: {'num_range_data': 785, 'voxel_filter_size': 0.09680984099871959, 'optimize_every_n_nodes': 591}. Best is trial 371 with value: 0.07742656697986065.
+[1750384600.372593403] Start trial 393
+Trial 393 finished with value: 0.21542503210548192 and parameters: {'num_range_data': 800, 'voxel_filter_size': 0.06666109547992358, 'optimize_every_n_nodes': 562}. Best is trial 371 with value: 0.07742656697986065.
+[1750384658.353967667] Start trial 394
+Trial 394 finished with value: 0.41037647178543185 and parameters: {'num_range_data': 812, 'voxel_filter_size': 0.3368731163121498, 'optimize_every_n_nodes': 572}. Best is trial 371 with value: 0.07742656697986065.
+[1750384695.990699291] Start trial 395
+Trial 395 finished with value: 0.34187533185893326 and parameters: {'num_range_data': 792, 'voxel_filter_size': 0.05788322235432595, 'optimize_every_n_nodes': 543}. Best is trial 371 with value: 0.07742656697986065.
+[1750384756.275420189] Start trial 396
+Trial 396 finished with value: 0.111594762438443 and parameters: {'num_range_data': 804, 'voxel_filter_size': 0.08721404030391426, 'optimize_every_n_nodes': 451}. Best is trial 371 with value: 0.07742656697986065.
+[1750384811.349765778] Start trial 397
+Trial 397 finished with value: 0.4741234332541129 and parameters: {'num_range_data': 799, 'voxel_filter_size': 0.08932129637393063, 'optimize_every_n_nodes': 424}. Best is trial 371 with value: 0.07742656697986065.
+[1750384865.324748516] Start trial 398
+Trial 398 finished with value: 0.27867050766388696 and parameters: {'num_range_data': 780, 'voxel_filter_size': 0.10266837112927044, 'optimize_every_n_nodes': 454}. Best is trial 371 with value: 0.07742656697986065.
+[1750384917.237488270] Start trial 399
+Trial 399 finished with value: 0.21030931333940822 and parameters: {'num_range_data': 824, 'voxel_filter_size': 0.07617771319867304, 'optimize_every_n_nodes': 416}. Best is trial 371 with value: 0.07742656697986065.
+[1750384973.391345501] Start trial 400
+Trial 400 finished with value: 0.3097303363040155 and parameters: {'num_range_data': 771, 'voxel_filter_size': 0.08671148147491305, 'optimize_every_n_nodes': 452}. Best is trial 371 with value: 0.07742656697986065.
+[1750385028.378218174] Start trial 401
+Trial 401 finished with value: 0.23681822749560752 and parameters: {'num_range_data': 818, 'voxel_filter_size': 0.1102027009904859, 'optimize_every_n_nodes': 470}. Best is trial 371 with value: 0.07742656697986065.
+[1750385078.262295246] Start trial 402
+Trial 402 finished with value: 0.5145218957496693 and parameters: {'num_range_data': 623, 'voxel_filter_size': 0.09552686778197636, 'optimize_every_n_nodes': 441}. Best is trial 371 with value: 0.07742656697986065.
+[1750385132.120722771] Start trial 403
+Trial 403 finished with value: 0.356426291309594 and parameters: {'num_range_data': 793, 'voxel_filter_size': 0.06943352947436826, 'optimize_every_n_nodes': 430}. Best is trial 371 with value: 0.07742656697986065.
+[1750385189.537643194] Start trial 404
+Trial 404 finished with value: 0.17532720795263457 and parameters: {'num_range_data': 806, 'voxel_filter_size': 0.1256251817117708, 'optimize_every_n_nodes': 339}. Best is trial 371 with value: 0.07742656697986065.
+[1750385239.180170298] Start trial 405
+Trial 405 finished with value: 0.3843178093394919 and parameters: {'num_range_data': 815, 'voxel_filter_size': 0.06262779229007093, 'optimize_every_n_nodes': 447}. Best is trial 371 with value: 0.07742656697986065.
+[1750385298.952064753] Start trial 406
+Trial 406 finished with value: 0.21845031310225965 and parameters: {'num_range_data': 803, 'voxel_filter_size': 0.07427139358096777, 'optimize_every_n_nodes': 529}. Best is trial 371 with value: 0.07742656697986065.
+[1750385356.333681822] Start trial 407
+Trial 407 finished with value: 0.2180905048011595 and parameters: {'num_range_data': 833, 'voxel_filter_size': 0.10514149377428618, 'optimize_every_n_nodes': 585}. Best is trial 371 with value: 0.07742656697986065.
+[1750385408.136318684] Start trial 408
+Trial 408 finished with value: 0.4037847698377705 and parameters: {'num_range_data': 776, 'voxel_filter_size': 0.08611716172936018, 'optimize_every_n_nodes': 462}. Best is trial 371 with value: 0.07742656697986065.
+[1750385462.332490683] Start trial 409
+Trial 409 finished with value: 0.3038206392547738 and parameters: {'num_range_data': 811, 'voxel_filter_size': 0.11718689756229354, 'optimize_every_n_nodes': 593}. Best is trial 371 with value: 0.07742656697986065.
+[1750385511.199930429] Start trial 410
+Trial 410 finished with value: 0.1763013083621775 and parameters: {'num_range_data': 784, 'voxel_filter_size': 0.0987779683331132, 'optimize_every_n_nodes': 580}. Best is trial 371 with value: 0.07742656697986065.
+NumExpr defaulting to 16 threads.

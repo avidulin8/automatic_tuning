@@ -1,0 +1,14 @@
+A new study created in RDB with name: cartographer_tuning
+[1750196414.692615747] Start trial 0
+Trial 0 finished with value: 0.1732124700039776 and parameters: {'translation_weight': 5, 'rotation_weight': 3}. Best is trial 0 with value: 0.1732124700039776.
+[1750196476.187682629] Start trial 1
+Trial 1 finished with value: 0.9621468965077529 and parameters: {'translation_weight': 6, 'rotation_weight': 46}. Best is trial 0 with value: 0.1732124700039776.
+[1750196534.112001181] Start trial 2
+Trial 2 finished with value: 0.16310044417434505 and parameters: {'translation_weight': 2, 'rotation_weight': 54}. Best is trial 2 with value: 0.16310044417434505.
+[1750196591.173802137] Start trial 3
+Trial 3 finished with value: 0.3980981533471515 and parameters: {'translation_weight': 8, 'rotation_weight': 60}. Best is trial 2 with value: 0.16310044417434505.
+[1750196648.095600843] Start trial 4
+Trial 4 finished with value: 0.09790438660565355 and parameters: {'translation_weight': 1, 'rotation_weight': 17}. Best is trial 4 with value: 0.09790438660565355.
+[1750196705.062679291] Start trial 5
+Trial 5 finished with value: 0.4375234304855886 and parameters: {'translation_weight': 10, 'rotation_weight': 35}. Best is trial 4 with value: 0.09790438660565355.
+[1750196762.313850403] Start trial 6
